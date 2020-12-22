@@ -38,17 +38,17 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down, can be empty (for example: '85 80 75')<br/>
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
 ```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, can be empty, default value is '1' ('0' - off or '1' - on)<br/>
-'--api' - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:<port> (for example: '10050', '20030')<br/>
-'--config' - specify configuration file<br/>
-'--pers' - personalization string for equihash algorithm (for example: 'BgoldPoW', 'BitcoinZ', 'Safecoin')<br/>
-'--pec' - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is '1' ('0' - off or '1' - on)<br/>
-'--electricity_cost' - pass cost of electricity in USD per kWh, miner will report $ spent to mining<br/>
-'--intensity' or shortly '-i' - space-separated list of intensities (1-100), default value is '100' (for example: '90 90 90')<br/>
-'--cache_dag' -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
-'--share_check' -  enable/disable share check on CPU for mining Ethash, Etcash, KAWPOW and ProgPoW, default value is '1' ('0' - off or '1' - on)<br/>
-'--nvml arg' - enable/disable NVML (statistic library for CUDA devices), default value is '1' ('0' - off or '1' - on)<br/>
-'--cuda arg' - enable/disable CUDA platform, default value is '1' ('0' - off or '1' - on)<br/>
-'--opencl arg' - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
+```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:<port> (for example: '10050', '20030')<br/>
+```--config``` - specify configuration file<br/>
+```--pers``` - personalization string for equihash algorithm (for example: 'BgoldPoW', 'BitcoinZ', 'Safecoin')<br/>
+```--pec``` - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is '1' ('0' - off or '1' - on)<br/>
+```--electricity_cost``` - pass cost of electricity in USD per kWh, miner will report $ spent to mining<br/>
+```--intensity``` or shortly ```-i``` - space-separated list of intensities (1-100), default value is '100' (for example: '90 90 90')<br/>
+```--cache_dag``` -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
+```--share_check``` -  enable/disable share check on CPU for mining Ethash, Etcash, KAWPOW and ProgPoW, default value is '1' ('0' - off or '1' - on)<br/>
+```--nvml arg``` - enable/disable NVML (statistic library for CUDA devices), default value is '1' ('0' - off or '1' - on)<br/>
+```--cuda arg``` - enable/disable CUDA platform, default value is '1' ('0' - off or '1' - on)<br/>
+```--opencl arg``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
 
 # Fast start:
 
