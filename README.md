@@ -35,7 +35,7 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--proto``` - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, can be empty, default value is 'proxy' (for example: 'stratum')<br/>
 ```--devices``` or shortly ```-d``` - space-separated list of cuda devices, can be empty, default value is all available devices (for example: '1 3 5')<br/>
 ```--logfile``` or shortly ```-l``` - filename to save logs on disk, can be empty, default value is '' (for example: '/usr/user/miner.log', 'c:\miner.log')<br/>
-```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down, can be empty (for example: '85 80 75')
+```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down, can be empty (for example: '85 80 75')<br/>
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
 ```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, can be empty, default value is '1' ('0' - off or '1' - on)<br/>
 '--api' - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:<port> (for example: '10050', '20030')<br/>
