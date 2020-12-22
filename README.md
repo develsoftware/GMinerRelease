@@ -53,29 +53,29 @@ The development team never stops at what has been achieved and achieves the maxi
 # Fast start:
 
 To start Ethash, enter at the command line:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1```<br/>
 --algo - mining algorithm, in this case ethash<br/>
 --server - pool address and port, in this case the pool is eth.2miners.com, port is 2020<br/>
 --user - Ethash wallet and worker name, in this case wallet is 0x5218597d48333d4a70cce91e810007b37e2937b5, worker is worker1<br/>
 
 For Ethash and Etсhash algorithms, there are 2 options for stratum protocol (proxy and stratum), to explicitly specify the protocol use the "--proto" parameter, for example, to use Nicehash pool, enter in the command line:<br/>
-```miner --algo ethash --server daggerhashimoto.usa.nicehash.com:3353 --user 3LsTTSsSy17xuoShcMHuRgGBxKn1AHgeVN --proto stratum```
+```miner --algo ethash --server daggerhashimoto.usa.nicehash.com:3353 --user 3LsTTSsSy17xuoShcMHuRgGBxKn1AHgeVN --proto stratum```<br/>
 
 If you have a mixed rig, you can run the miner only on CUDA devices:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --opencl 0```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --opencl 0```<br/>
 or only on OpenCL devices:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --cuda 0```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --cuda 0```<br/>
 or on devices of your choice, such as GPU0 GPU2 and GPU4:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --devices 0 2 4```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --devices 0 2 4```<br/>
 the list of available GPUs can be seen by calling the following command:<br/>
 ```miner --list_devices```
 
 To set temperature limits on GPU0 GPU2 and GPU4, upon reaching which mining on this device will pause until it cools down:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --devices 0 2 4 --templimit 80 70 65```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --devices 0 2 4 --templimit 80 70 65```<br/>
 where 80 is the temperature limit for GPU0, 70 is the temperature limit for GPU2, 65 is the temperature limit for GPU4<br/>
 
 To save the miner's logs to a file for later analysis:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt```<br/>
 where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
 | Supported algorithms | developer commission |
