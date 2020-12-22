@@ -79,7 +79,7 @@ miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce
 where "c:\log.txt" is the path to the file with the miner's logs
 
 | Supported algorithms | developer commission |
-|--------------------|-----------------------|
+|-|-|
 | eth, ethash | 0.65% |
 | etc, etchash | 0.65% |
 | kawpow, rvn, ravencoin | 1% |
