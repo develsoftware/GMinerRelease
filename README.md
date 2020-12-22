@@ -24,8 +24,8 @@ The development team never stops at what has been achieved and achieves the maxi
 + built-in statistics server - remote monitoring of the miner in browser
 
 # Miner options:
-'--algo' or shortly '-a' - mining algorithm ('equihash96_5', 'equihash144_5', 'equihash150_5', 'equihash192_7', 'equihash210_9', 'cuckaroo29', 'cuckatoo31', 'cuckoo' or shortly: '96_5', '144_5', '150_5', '192_7', '210_9', 'grin29', 'grin31', 'aeternity')<br/>
-'--list_devices' - list devices available for mining<br/>
+```--algo``` or shortly ```-a``` - mining algorithm (```equihash96_5```, ```equihash144_5```, ```equihash150_5```, ```equihash192_7```, ```equihash210_9```, ```cuckaroo29```, ```cuckatoo31```, ```cuckoo``` or shortly: ```96_5```, ```144_5```,  ```150_5```, ```192_7```, ```210_9```, ```grin29```, ```grin31```, ```aeternity```)<br/>
+```--list_devices``` - list devices available for mining<br/>
 '--server' or shortly '-s' - mining pool address (for example: 'eu.btgpool.pro', 'eu1.zhash.pro')<br/>
 '--port' or shortly '-n' - mining pool port (for example: '5057', '1445')<br/>
 '--user' or shortly '-u' - mining pool login or wallet address, worker's name can be specified with a dot (for example: 'sRuJK1BmA758GbOn.worker', 'GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0')<br/>
