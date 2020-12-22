@@ -78,26 +78,27 @@ To save the miner's logs to a file for later analysis:
 miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt
 where "c:\log.txt" is the path to the file with the miner's logs
 
-|Supported algorithms | developer commission |
-|eth, ethash          |    0.65%|
-|etc, etchash         |     0.65%|
-|kawpow, rvn, ravencoin|    1%|
-|cuckatoo32, grin32    |    2%|
-|cortex                |    5%|
-|beamhash              |    2%|
-|equihash144_5         |    2%|
-|equihash125_4         |    2%|
-|equihash192_7         |    2%|
-|equihash210_9         |    2%|
-|cuckoo29, aeternity   |    2%|
-|cuckarood29           |    2%|
-|cuckarooz29, grin29   |    3%|
-|cuckatoo31, grin31    |    2%|
-|cuckaroo29b, bittube  |    4%|
-|cuckaroo29s, swap     |    2%|
-|cuckarood29v, monerov |    10%|
-|bfc                   |    3%|
-|sero                  |    2%|
-|vprogpow, vbk, veriblock|  2%|
-|progpowz, zano        |    2%|
-|vds                  |     2%|
+| Supported algorithms | developer commission |
+|--------------------|-----------------------|
+| eth, ethash | 0.65% |
+| etc, etchash | 0.65% |
+| kawpow, rvn, ravencoin | 1% |
+| cuckatoo32, grin32 | 2%|
+| cortex | 5% |
+| beamhash | 2% |
+| equihash144_5 |    2%|
+| equihash125_4 |    2%|
+| equihash192_7 | 2% |
+| equihash210_9 | 2% |
+| cuckoo29, aeternity | 2%|
+| cuckarood29 | 2% |
+| cuckarooz29, grin29 | 3% |
+| cuckatoo31, grin31 | 2%|
+| cuckaroo29b, bittube | 4%|
+| cuckaroo29s, swap | 2% |
+| cuckarood29v, monerov | 10% |
+| bfc | 3% |
+| sero | 2% |
+| vprogpow, vbk, veriblock | 2% |
+| progpowz, zano | 2% |
+| vds | 2% |
