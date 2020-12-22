@@ -1,11 +1,11 @@
 
-GMiner was created by a Russian group of specialists in the field of high performance computing and cryptography.
-The first version of GMiner was released on September 21, 2018 and was received quite warmly among users.
-Thanks to its unique developments and stability, in just six months, the miner became a favorite on the Equihash algorithms.
-The miner is focused on NVIDIA and AMD platforms and supports most popular algorithms such as: Ethash, ProgPoW, KAWPOW, Equihash, CuckooCycle.
-GMiner maintains a leading position in the mining of such coins as Beam, Grin, Cortex, Bitcoin Gold.
-In 2020, the miner added support for Ethash, ProgPoW and KAWPOW algorithms with high performance relative to competitors.
-The development team never stops at what has been achieved and achieves the maximum performance of the algorithms with the minimum power consumption, it is these qualities that distinguish GMiner from the competitors and win the hearts of users.
+GMiner was created by a Russian group of specialists in the field of high performance computing and cryptography.<br />
+The first version of GMiner was released on September 21, 2018 and was received quite warmly among users.<br />
+Thanks to its unique developments and stability, in just six months, the miner became a favorite on the Equihash algorithms.<br />
+The miner is focused on NVIDIA and AMD platforms and supports most popular algorithms such as: Ethash, ProgPoW, KAWPOW, Equihash, CuckooCycle.<br />
+GMiner maintains a leading position in the mining of such coins as Beam, Grin, Cortex, Bitcoin Gold.<br />
+In 2020, the miner added support for Ethash, ProgPoW and KAWPOW algorithms with high performance relative to competitors.<br />
+The development team never stops at what has been achieved and achieves the maximum performance of the algorithms with the minimum power consumption, it is these qualities that distinguish GMiner from the competitors and win the hearts of users.<br />
 
 Miner Features:
 + commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
