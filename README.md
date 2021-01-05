@@ -81,6 +81,8 @@ To save the miner's logs to a file for later analysis:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt```<br/>
 where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
+# Fee
+
 | Supported algorithms | developer commission |
 |-|-|
 | eth, ethash | 0.65% |
@@ -105,3 +107,8 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | vprogpow, vbk, veriblock | 2% |
 | progpowz, zano | 2% |
 | vds | 2% |
+
+# Social Networks
+
+Telegram chat: https://t.me/gminer_beta
+Telegram announcements: https://t.me/gminer_equihash
