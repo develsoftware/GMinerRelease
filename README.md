@@ -33,6 +33,9 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--ssl``` - enable/disable secure connection with mining pool, must be supported by a pool, can be empty, default value is '0' ('0' - off or '1' - on)<br/>
 ```--ssl_verification``` - enable/disable certificates verification for secure connection, it may not work with pools that have expired certificate, can be empty, default value is '0' ('0' - off or '1' - on)<br/>
 ```--proto``` - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, can be empty, default value is 'proxy' (for example: 'stratum')<br/>
+```--dag_mode``` - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), separated by spaces, can be empty, default is '0' (for example: '2 1 0')<br/>
+```--dag_limit``` - space-separated list of Dag file size limits in megabytes, separated by spaces, can be empty (for example: '4096 4096 4096')<br/>
+```--cache_dag``` -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
 ```--devices``` or shortly ```-d``` - space-separated list of cuda devices, can be empty, default value is all available devices (for example: '1 3 5')<br/>
 ```--logfile``` or shortly ```-l``` - filename to save logs on disk, can be empty, default value is '' (for example: '/usr/user/miner.log', 'c:\miner.log')<br/>
 ```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down, can be empty (for example: '85 80 75')<br/>
