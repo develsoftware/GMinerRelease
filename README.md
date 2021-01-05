@@ -110,5 +110,5 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
 # Social Networks
 
-Telegram chat: https://t.me/gminer_beta
+Telegram chat: https://t.me/gminer_beta</br>
 Telegram announcements: https://t.me/gminer_equihash
