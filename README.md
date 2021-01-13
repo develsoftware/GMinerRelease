@@ -100,7 +100,6 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | cuckatoo31, grin31 | 2%|
 | cuckaroo29b, bittube | 4%|
 | cuckaroo29s, swap | 2% |
-| cuckarood29v, monerov | 10% |
 | bfc | 3% |
 | vds | 2% |
 
