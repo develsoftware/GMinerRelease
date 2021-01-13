@@ -97,15 +97,11 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2%|
 | cuckarood29 | 2% |
-| cuckarooz29, grin29 | 3% |
 | cuckatoo31, grin31 | 2%|
 | cuckaroo29b, bittube | 4%|
 | cuckaroo29s, swap | 2% |
 | cuckarood29v, monerov | 10% |
 | bfc | 3% |
-| sero | 2% |
-| vprogpow, vbk, veriblock | 2% |
-| progpowz, zano | 2% |
 | vds | 2% |
 
 # Social Networks
