@@ -24,23 +24,25 @@ The development team never stops at what has been achieved and achieves the maxi
 + built-in statistics server - remote monitoring of the miner in browser
 
 # Miner options:
-```--algo``` or shortly ```-a``` - mining algorithm ('equihash96_5', 'equihash144_5', 'equihash150_5', 'equihash192_7', 'equihash210_9', 'cuckaroo29', 'cuckatoo31', 'cuckoo' or shortly: '96_5', '144_5',  '150_5', '192_7', '210_9', 'grin29', 'grin31', 'aeternity')<br/>
+```--algo``` or shortly ```-a``` - mining algorithm (for example: 'ethash', 'kawpow', 'cuckatoo32', 'beamhash')<br/>
 ```--list_devices``` - list devices available for mining<br/>
 ```--server``` or shortly ```-s``` - mining pool address (for example: 'eu.btgpool.pro', 'eu1.zhash.pro')<br/>
 ```--port``` or shortly ```-n``` - mining pool port (for example: '5057', '1445')<br/>
 ```--user``` or shortly ```-u``` - mining pool login or wallet address, worker's name can be specified with a dot (for example: 'sRuJK1BmA758GbOn.worker', 'GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0')<br/>
 ```--pass``` or shortly ```-p``` - worker password or default pool password, can be empty, default value is 'x' (for example: 'sRuJK1Bm')<br/>
-```--ssl``` - enable/disable secure connection with mining pool, must be supported by a pool, can be empty, default value is '0' ('0' - off or '1' - on)<br/>
-```--ssl_verification``` - enable/disable certificates verification for secure connection, it may not work with pools that have expired certificate, can be empty, default value is '0' ('0' - off or '1' - on)<br/>
-```--proto``` - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, can be empty, default value is 'proxy' (for example: 'stratum')<br/>
-```--dag_mode``` - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), separated by spaces, can be empty, default is '0' (for example: '2 1 0')<br/>
-```--dag_limit``` - space-separated list of Dag file size limits in megabytes, separated by spaces, can be empty (for example: '4096 4096 4096')<br/>
-```--cache_dag``` -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
+```--ssl``` - enable/disable secure connection with mining pool, must be supported by a pool, default value is '0' ('0' - off or '1' - on)<br/>
+```--ssl_verification``` - enable/disable certificates verification for secure connection, it may not work with pools that have expired certificate, default value is '0' ('0' - off or '1' - on)<br/>
+```--proto``` - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, default value is 'proxy' (for example: 'stratum')<br/>
+```--dag_mode``` - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), default is '0' (for example: '2 1 0')<br/>
+```--dag_limit``` - space-separated list of Dag file size limits in megabytes, to disable the limit use 0, default is '0' (for example: '4096 4096 4096')<br/>
+```--cache_dag``` - enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
 ```--devices``` or shortly ```-d``` - space-separated list of cuda devices, can be empty, default value is all available devices (for example: '1 3 5')<br/>
+```--oc``` - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash), default value is 0 (for example: '1 3 5')<br/>
+```--mt``` - space-separated list of memory tweak numbers for each device (range from 0 to 6, 0 - disable tweaks), only Nvidia GPUs with GDDR5X and GDDR5 memory are supported, requires running miner with admin privileges, default value is 0 (for example: '1 3 5')<br/>
 ```--logfile``` or shortly ```-l``` - filename to save logs on disk, can be empty, default value is '' (for example: '/usr/user/miner.log', 'c:\miner.log')<br/>
-```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down, can be empty (for example: '85 80 75')<br/>
+```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: '85 80 75')<br/>
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
-```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, can be empty, default value is '1' ('0' - off or '1' - on)<br/>
+```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is '1' ('0' - off or '1' - on)<br/>
 ```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:<port> (for example: '10050', '20030')<br/>
 ```--config``` - specify configuration file<br/>
 ```--pers``` - personalization string for equihash algorithm (for example: 'BgoldPoW', 'BitcoinZ', 'Safecoin')<br/>
