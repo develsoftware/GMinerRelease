@@ -22,6 +22,7 @@ The development team never stops at what has been achieved and achieves the maxi
 + display of detailed information on each device (temperature, power consumption, cooler load, memory frequency, processor frequency, energy efficiency)
 + parallel output of information to console and to file on disk
 + built-in statistics server - remote monitoring of the miner in browser
++ memory tweaks for Nvidia GPUs with GDDR5X and GDDR5 memory
 
 # Miner options:
 ```--algo``` or shortly ```-a``` - mining algorithm (for example: 'ethash', 'kawpow', 'cuckatoo32', 'beamhash')<br/>
