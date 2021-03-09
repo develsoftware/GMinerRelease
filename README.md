@@ -108,7 +108,7 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
 # Social Networks
 
-BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0
+BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0</br>
 Discord: https://discord.gg/XCrSf8MZK5</br>
 Telegram chat: https://t.me/gminer_beta</br>
 Telegram announcements: https://t.me/gminer_equihash
