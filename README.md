@@ -10,7 +10,7 @@ The development team never stops at what has been achieved and achieves the maxi
 
 # Miner Features:
 + commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
-+ verifying generated DAG, warning when GPU overclocking is very high for Ethash, Etcash, KAWPOW and ProgPoW algorithms, helps to overclock GPU without errors
++ verifying generated DAG, warning when GPU overclocking is very high for Ethash, Etchash, KAWPOW and ProgPoW algorithms, helps to overclock GPU without errors
 + verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, KAWPOW and ProgPoW algorithms, helps to overclock GPU without errors
 + DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining Ethash + Zilliqa or Nicehash, which has a positive effect on user profitability
 + temperature control and stop the GPU in case of overheating
