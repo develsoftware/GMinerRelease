@@ -65,12 +65,12 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--opencl arg``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
   
 Parameters ```dag_mode```, ```safe_dag```, ```dag_limit```, ```kernel```, ```mt```, ```fan```, ```pl```, ```cclock```, ```cvddc```, ```mclock```, ```mvddc```, ```templimit```, intensity can be specified with one parameter for all devices:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
 or for each device separately, if we have 3 devices:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2```<br/>
 
 Miner supports failover pools, if the main pool is not available, the miner switches to the failover pools, after the main pool is available, the miner will switch to it, example:<br/>
-```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server eu1.ethermine.org:4444 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server asia.sparkpool.com:3333 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1```
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server eu1.ethermine.org:4444 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server asia.sparkpool.com:3333 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1```<br/>
 eth.2miners.com - main pool<br/>
 eu1.ethermine.org and asia.sparkpool.com - failover pools<br/>
 
