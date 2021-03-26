@@ -23,6 +23,8 @@ The development team never stops at what has been achieved and achieves the maxi
 + parallel output of information to console and to file on disk
 + built-in statistics server - remote monitoring of the miner in browser
 + memory tweaks for Nvidia GPUs with GDDR5X and GDDR5 memory
++ core clocks, memory clocks, core voltage, memory voltage, fan speed, power limit overclocking for Windows
++ safe DAG generation for Nvidia GPUs
 
 # Miner options:
 ```--algo``` or shortly ```-a``` - mining algorithm (for example: 'ethash', 'kawpow', 'cuckatoo32', 'beamhash')<br/>
@@ -38,8 +40,14 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--dag_limit``` - space-separated list of Dag file size limits in megabytes, to disable the limit use 0, default is '0' (for example: '4096 4096 4096')<br/>
 ```--cache_dag``` - enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
 ```--devices``` or shortly ```-d``` - space-separated list of cuda devices, can be empty, default value is all available devices (for example: '1 3 5')<br/>
-```--oc``` - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash), default value is 0 (for example: '1 3 5')<br/>
+```--kernel``` or shortly ```-k``` - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash), default value is 0 (for example: '1 3 5')<br/>
 ```--mt``` - space-separated list of memory tweak numbers for each device (range from 0 to 6, 0 - disable tweaks), only Nvidia GPUs with GDDR5X and GDDR5 memory are supported, requires running miner with admin privileges, default value is 0 (for example: '1 3 5')<br/>
+```--fan``` - space-separated list of fan speed for each device in percents (range from 0 to 100, 0 - ignore), only Windows is supported (for example: '60 0 90')<br/>
+```--pl``` - space-separated list of power limits for each device in percents (range from 0 to 100 for Nvidia GPUs and -50 - 50 for AMD GPUs, 0 - ignore), only Windows is supported (for example: '30 0 50')<br/>
+```--cclock``` - space-separated list of core clock offsets (for Nvidia GPUs) or absolute core clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: '100 0 -90')<br/>
+```--mclock``` - space-separated list of memory clock offsets (for Nvidia GPUs) or absolute memory clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: '100 0 -90')<br/>
+```--cvddc``` - space-separated list of absolute core voltages for each device in mV (0 - ignore), only Windows and AMD GPUs are supported, requires running miner with admin privileges (for example: '900 0 1100')<br/>
+```--mvddc``` - space-separated list of absolute memory voltages for each device in mV (0 - ignore), only Windows and AMD GPUs are supported, requires running miner with admin privileges (for example: '900 0 1100')<br/>
 ```--logfile``` or shortly ```-l``` - filename to save logs on disk, can be empty, default value is '' (for example: '/usr/user/miner.log', 'c:\miner.log')<br/>
 ```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: '85 80 75')<br/>
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
