@@ -32,6 +32,7 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--server``` or shortly ```-s``` - mining pool address (for example: 'eu.btgpool.pro', 'eu1.zhash.pro')<br/>
 ```--port``` or shortly ```-n``` - mining pool port (for example: '5057', '1445')<br/>
 ```--user``` or shortly ```-u``` - mining pool login or wallet address, worker's name can be specified with a dot (for example: 'sRuJK1BmA758GbOn.worker', 'GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0')<br/>
+```--worker``` - worker name for Ethash strarum, for pools that does not supoort wallet.worker (for example: 'rig0')<br/> 
 ```--pass``` or shortly ```-p``` - worker password or default pool password, can be empty, default value is 'x' (for example: 'sRuJK1Bm')<br/>
 ```--ssl``` - enable/disable secure connection with mining pool, must be supported by a pool, default value is '0' ('0' - off or '1' - on)<br/>
 ```--ssl_verification``` - enable/disable certificates verification for secure connection, it may not work with pools that have expired certificate, default value is '0' ('0' - off or '1' - on)<br/>
@@ -139,8 +140,6 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | cuckatoo31, grin31 | 2%|
 | cuckaroo29b, bittube | 4%|
 | cuckaroo29s, swap | 2% |
-| bfc | 3% |
-| vds | 2% |
 
 # Social Networks
 
