@@ -144,6 +144,7 @@ To save the miner's logs to a file for later analysis:<br/>
 where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
 # Supported algorithms and developer commission:
+|algorithm|fee|
 |-|-|
 | eth, ethash | 0.65% |
 | etc, etchash | 0.65% |
