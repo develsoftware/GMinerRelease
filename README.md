@@ -51,7 +51,6 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--cclock``` - space-separated list of core clock offsets (for Nvidia GPUs) or absolute core clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: '100 0 -90')<br/>
 ```--mclock``` - space-separated list of memory clock offsets (for Nvidia GPUs) or absolute memory clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: '100 0 -90')<br/>
 ```--cvddc``` - space-separated list of core voltage offsets in % (for Nvidia GPUs) or absolute core voltages (for AMD GPUs) for each device in mV (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: '900 0 1100')<br/>
-```--mvddc``` - space-separated list of absolute memory voltages for each device in mV (0 - ignore), only Windows and AMD GPUs are supported, requires running miner with admin privileges (for example: '900 0 1100')<br/>
 ```--lock_voltage``` - space-separated list of locked voltage points for each device in mV (0 - ignore), only Windows and Nvidia GPUs are supported. Requires running miner with admin privileges (for example: '900 0 1000')<br/>
 ```--lock_cclock``` - space-separated list of locked core clock point for each device in MHz (0 - ignore), only Nvidia GPUs are supported. Requires running miner with admin privileges (for example: '1200 0 1500')<br/>
 ```--p2state``` - enable/disable P2 state, only Windows and Nvidia GPUs are supported. Requires running miner with admin privileges<br/>
@@ -63,6 +62,7 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--log_stratum``` - enable/disable data of communication with the server, default value is '0' ('0' - off or '1' - on)<br/>
 ```--log_newjob``` - enable/disable information about new jobs, default value is '1' ('0' - off or '1' - on)<br/>
 ```--templimit``` or shortly ```-t``` - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: '85 80 75')<br/>
+```--templimit_mem``` or shortly ```-tm``` - space-separated list of memory temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: '95 100 105')<br/>
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
 ```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is '1' ('0' - off or '1' - on)<br/>
 ```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:port (for example: '10050', '20030')<br/>
@@ -77,7 +77,7 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--opencl``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
 ```--opencl``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
 
-Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, mvddc, lock_voltage, lock_cclock, tfan, templimit, intensity can be specified with one parameter for all devices:<br/>
+Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity can be specified with one parameter for all devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
 or for each device separately, if we have 3 devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2```<br/>
@@ -87,7 +87,7 @@ Miner supports failover pools, if the main pool is not available, the miner swit
 eth.2miners.com - main pool<br/>
 eu1.ethermine.org and asia.sparkpool.com - failover pools<br/>
 
-Miner resets mt, cclock, cvddc, mclock, mvddc parameters to default values while DAG generation to avoid errors<br/>
+Miner resets mt, cclock, cvddc, mclock parameters to default values while DAG generation to avoid errors<br/>
 
 # Parameters details:
 ```--kernel``` - allows you to choose one of several kernels, the fastest kernel is automatically selected by default. <br/>
@@ -149,7 +149,6 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | eth, ethash | 0.65% |
 | etc, etchash | 0.65% |
 | kawpow, rvn, ravencoin | 1% |
-| cuckatoo32, grin32 | 2% |
 | cortex | 5% |
 | beamhash | 2% |
 | equihash144_5 | 2% |
@@ -157,6 +156,13 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash192_7 | 2% |
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
-| cuckatoo31, grin31 | 2% |
 | cuckaroo29b, bittube | 4% |
 | cuckaroo29s, swap | 2% |
+
+# Resources:
+Official site: http://gminer.pro<br/>
+Github: https://github.com/develsoftware/GMinerRelease<br/>
+BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0<br/>
+Discord: https://discord.gg/XCrSf8MZK5<br/>
+Telegram chat: https://t.me/gminer_talk<br/>
+Telegram announcements: https://t.me/gminer_releases<br/>
