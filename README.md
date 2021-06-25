@@ -29,6 +29,8 @@ The development team never stops at what has been achieved and achieves the maxi
 * automatic fan speed control for target temperature
 
 # Miner options:
+```--help``` or shortly ```-h``` - display available options<br/>
+```--version``` or shortly ```-v``` - print program version<br/>
 ```--algo``` or shortly ```-a``` - mining algorithm (for example: 'ethash', 'kawpow', 'cuckatoo32', 'beamhash')<br/>
 ```--list_devices``` - list devices available for mining<br/>
 ```--server``` or shortly ```-s``` - mining pool address (for example: 'eu.btgpool.pro', 'eu1.zhash.pro')<br/>
@@ -65,6 +67,8 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--templimit_mem``` or shortly ```-tm``` - space-separated list of memory temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: '95 100 105')<br/>
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
 ```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is '1' ('0' - off or '1' - on)<br/>
+```--watchdog_restart_delay``` - miner restart delay for watchdog in seconds, default value is '10' (for example: '1')<br/>
+```--report_interval``` - statistics report interval in seconds, default value is '30' (for example: '5')<br/>
 ```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:port (for example: '10050', '20030')<br/>
 ```--config``` - specify configuration file<br/>
 ```--pers``` - personalization string for equihash algorithm (for example: 'BgoldPoW', 'BitcoinZ', 'Safecoin')<br/>
@@ -74,7 +78,6 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--share_check``` -  enable/disable share check on CPU for mining Ethash, Etcash, KAWPOW and ProgPoW, default value is '1' ('0' - off or '1' - on)<br/>
 ```--nvml``` - enable/disable NVML (statistic library for CUDA devices), default value is '1' ('0' - off or '1' - on)<br/>
 ```--cuda``` - enable/disable CUDA platform, default value is '1' ('0' - off or '1' - on)<br/>
-```--opencl``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
 ```--opencl``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
 
 Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity can be specified with one parameter for all devices:<br/>
@@ -158,11 +161,3 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | cuckoo29, aeternity | 2% |
 | cuckaroo29b, bittube | 4% |
 | cuckaroo29s, swap | 2% |
-
-# Resources:
-Official site: http://gminer.pro<br/>
-Github: https://github.com/develsoftware/GMinerRelease<br/>
-BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0<br/>
-Discord: https://discord.gg/XCrSf8MZK5<br/>
-Telegram chat: https://t.me/gminer_talk<br/>
-Telegram announcements: https://t.me/gminer_releases<br/>
