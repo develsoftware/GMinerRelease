@@ -159,5 +159,3 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash192_7 | 2% |
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
-| cuckaroo29b, bittube | 4% |
-| cuckaroo29s, swap | 2% |
