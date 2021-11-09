@@ -31,8 +31,10 @@ The development team never stops at what has been achieved and achieves the maxi
 # Miner options:
 ```--help``` or shortly ```-h``` - display available options<br/>
 ```--version``` or shortly ```-v``` - print program version<br/>
+```--user_id``` - print user ID<br/>
 ```--algo``` or shortly ```-a``` - mining algorithm (for example: 'ethash', 'kawpow', 'cuckatoo32', 'beamhash')<br/>
 ```--list_devices``` - list devices available for mining<br/>
+```--contest_wallet``` - Ethash wallet, parameter is required to participate in contest<br/>
 ```--server``` or shortly ```-s``` - mining pool address (for example: 'eu.btgpool.pro', 'eu1.zhash.pro')<br/>
 ```--port``` or shortly ```-n``` - mining pool port (for example: '5057', '1445')<br/>
 ```--user``` or shortly ```-u``` - mining pool login or wallet address, worker's name can be specified with a dot (for example: 'sRuJK1BmA758GbOn.worker', 'GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0')<br/>
@@ -75,10 +77,14 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--pec``` - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is '1' ('0' - off or '1' - on)<br/>
 ```--electricity_cost``` - pass cost of electricity in USD per kWh, miner will report $ spent to mining<br/>
 ```--intensity``` or shortly ```-i``` - space-separated list of intensities (1-100), default value is '100' (for example: '90 90 90') <br/>
-```--share_check``` -  enable/disable share check on CPU for mining Ethash, Etcash, KAWPOW and ProgPoW, default value is '1' ('0' - off or '1' - on)<br/>
-```--nvml``` - enable/disable NVML (statistic library for CUDA devices), default value is '1' ('0' - off or '1' - on)<br/>
-```--cuda``` - enable/disable CUDA platform, default value is '1' ('0' - off or '1' - on)<br/>
-```--opencl``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br/>
+```--share_check``` -  enable/disable share check on CPU for mining Ethash ('0' - off or '1' - on), Etcash, KAWPOW and ProgPoW, default value is '1'<br/>
+```--nvml``` - enable/disable NVML (statistic library for CUDA devices) ('0' - off or '1' - on), default value is '1'<br/>
+```--cuda``` - enable/disable CUDA platform ('0' - off or '1' - on), default value is '1'<br/>
+```--opencl``` - enable/disable OpenCL platform ('0' - off or '1' - on) , default value is '1'<br/>
+```--lhr``` - space-separated list of LHR modes (0 - auto, 1 - on, 2 - off), only Nvidia GPUs are supported<br/>
+```--lhr_tune``` - space-separated list of LHR tune values, meaning GPU unlock percentage (0 - auto), only Nvidia GPUs are supported, default value is '0' (for example: '72 71 73')<br/>
+```--lhr_autotune``` - space-separated list of LHR auto-tune, 0 - off, 1 - on, only Nvidia GPUs are supported (for example: '1 0 1')<br/>
+```--lhr_mode``` - space-separated list of LHR mode (0 - power save mode, 1 - maximal performance mode), only Nvidia GPUs are supported, default value is '1' (for example: '1 0 1')<br/>
 
 Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity can be specified with one parameter for all devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
