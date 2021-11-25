@@ -46,7 +46,8 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--dag_mode``` - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), default is '0' (for example: '2 1 0')<br/>
 ```--safe_dag``` - space-separated list of DAG generation modes (0 - auto, 1 - fast mode, 2 - safe mode, in auto mode GTX GPUs - fast DAG and RTX GPUs - safe DAG), only Nvidia GPUs are supported, default is '0' (for example: '2 1 0')<br/>
 ```--dag_limit``` - space-separated list of Dag file size limits in megabytes, to disable the limit use 0, default is '0' (for example: '4096 4096 4096')<br/>
-```--cache_dag``` -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br/>
+```--cache_dag``` -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash('0' - off or '1' - on), default value is '1'<br/>
+```--dag_gen_limit``` - maximal number of parallel DAG generations, 0 - disable limit, default value is '0' (for example: '3')<br/>
 ```--devices``` or shortly ```-d``` - space-separated list of cuda devices, default value is all available devices (for example: '1 3 5')<br/>
 ```--kernel``` or shortly ```-k``` - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash) (for example: '1 3 5')<br/>
 ```--mt``` - space-separated list of memory tweak numbers for each device (range from 0 to 6, 0 - disable tweaks), only Nvidia GPUs with GDDR5X and GDDR5 memory are supported, requires running miner with admin privileges (for example: '1 3 5')<br/>
@@ -70,6 +71,8 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--color``` or shortly ```-c``` - enable/disable color output for console, default value is '1' ('0' - off or '1' - on)<br/>
 ```--watchdog``` or shortly ```-w``` - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is '1' ('0' - off or '1' - on)<br/>
 ```--watchdog_restart_delay``` - miner restart delay for watchdog in seconds, default value is '10' (for example: '1')<br/>
+```--watchdog_mode``` - watchdog action on miner quits (0 - restart miner, 1 - reboot system), default value is '0' (for example: '1')<br/>
+```--min_rig_speed``` - minimal rig speed, miner quits if average speed drop below specified value<br/>
 ```--report_interval``` - statistics report interval in seconds, default value is '30' (for example: '5')<br/>
 ```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:port (for example: '10050', '20030')<br/>
 ```--config``` - specify configuration file<br/>
@@ -84,9 +87,10 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--lhr``` - space-separated list of LHR modes (0 - auto, 1 - on, 2 - off), only Nvidia GPUs are supported<br/>
 ```--lhr_tune``` - space-separated list of LHR tune values, meaning GPU unlock percentage (0 - auto), only Nvidia GPUs are supported, default value is '0' (for example: '72 71 73')<br/>
 ```--lhr_autotune``` - space-separated list of LHR auto-tune, 0 - off, 1 - on, only Nvidia GPUs are supported (for example: '1 0 1')<br/>
+```--lhr_autotune_step``` - LHR auto-tune step size, only Nvidia GPUs are supported, default value is '0.5' (for example: '0.2')<br/>
 ```--lhr_mode``` - space-separated list of LHR mode (0 - power save mode, 1 - maximal performance mode), only Nvidia GPUs are supported, default value is '1' (for example: '1 0 1')<br/>
 
-Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity can be specified with one parameter for all devices:<br/>
+Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity, lhr, lhr_tune, lhr_autotune, lhr_mode can be specified with one parameter for all devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
 or for each device separately, if we have 3 devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2```<br/>
@@ -165,3 +169,4 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash192_7 | 2% |
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
+
