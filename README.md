@@ -40,7 +40,8 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--user``` or shortly ```-u``` - mining pool login or wallet address, worker's name can be specified with a dot (for example: 'sRuJK1BmA758GbOn.worker', 'GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0')<br/>
 ```--worker``` - worker name for Ethash strarum, for pools that does not supoort wallet.worker (for example: 'rig0') <br/>
 ```--pass``` or shortly ```-p``` - worker password or default pool password, default value is 'x' (for example: 'sRuJK1Bm')<br/>
-```--ssl``` - enable/disable secure connection with mining pool, must be supported by a pool, default value is '0' ('0' - off or '1' - on)<br/>
+```--ssl``` - enable/disable secure connection with mining pool ('0' - off or '1' - on), must be supported by a pool, default value is '0' <br/>
+```--dev_fee_ssl``` - enable/disable only SSL connections to mine DevFee ('0' - off or '1' - on), default value is '0'<br/>
 ```--proxy``` - SOCKS5 proxy server address (for example: 31.7.232.178:1080)<br/>
 ```--proto``` - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, default value is 'proxy' (for example: 'stratum')<br/>
 ```--dag_mode``` - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), default is '0' (for example: '2 1 0')<br/>
@@ -169,4 +170,3 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash192_7 | 2% |
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
-
