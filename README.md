@@ -170,3 +170,11 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash192_7 | 2% |
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
+
+# Resources:
+Official site: http://gminer.pro
+Github: https://github.com/develsoftware/GMinerRelease
+BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0
+Discord: https://discord.gg/J7RUG3FDYw
+Telegram chat: https://t.me/gminer_talk
+Telegram announcements: https://t.me/gminer_releases
