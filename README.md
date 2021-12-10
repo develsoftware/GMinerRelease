@@ -172,9 +172,9 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | cuckoo29, aeternity | 2% |
 
 # Resources:
-Official site: http://gminer.pro
-Github: https://github.com/develsoftware/GMinerRelease
-BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0
-Discord: https://discord.gg/J7RUG3FDYw
-Telegram chat: https://t.me/gminer_talk
-Telegram announcements: https://t.me/gminer_releases
+Official site: http://gminer.pro <br/>
+Github: https://github.com/develsoftware/GMinerRelease <br/>
+BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0 <br/>
+Discord: https://discord.gg/J7RUG3FDYw <br/>
+Telegram chat: https://t.me/gminer_talk <br/>
+Telegram announcements: https://t.me/gminer_releases <br/>
