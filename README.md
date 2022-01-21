@@ -88,8 +88,7 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--lhr``` - space-separated list of LHR modes (0 - auto, 1 - on, 2 - off), only Nvidia GPUs are supported<br/>
 ```--lhr_tune``` - space-separated list of LHR tune values, meaning GPU unlock percentage (0 - auto), only Nvidia GPUs are supported, default value is '0' (for example: '72 71 73')<br/>
 ```--lhr_autotune``` - space-separated list of LHR auto-tune, 0 - off, 1 - on, only Nvidia GPUs are supported (for example: '1 0 1')<br/>
-```--lhr_autotune_step``` - LHR auto-tune step size, only Nvidia GPUs are supported, default value is '0.5' (for example: '0.2')<br/>
-```--lhr_mode``` - space-separated list of LHR mode (0 - power save mode, 1 - maximal performance mode), only Nvidia GPUs are supported, default value is '1' (for example: '1 0 1')<br/>
+```--lhr_autotune_step``` - LHR auto-tune step size, only Nvidia GPUs are supported, default value is '0.1' (for example: '0.2')<br/>
 
 Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity, lhr, lhr_tune, lhr_autotune, lhr_mode can be specified with one parameter for all devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
@@ -160,8 +159,8 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 # Supported algorithms and developer commission:
 |algorithm|fee|
 |-|-|
-| eth, ethash | 0.65% |
-| etc, etchash | 0.65% |
+| eth, ethash | 1% |
+| etc, etchash | 1% |
 | kawpow, rvn, ravencoin | 1% |
 | cortex | 5% |
 | beamhash | 2% |
