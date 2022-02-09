@@ -16,7 +16,7 @@ The development team never stops at what has been achieved and achieves the maxi
 * temperature control and stop the GPU in case of overheating
 * watchdog - process-observer of state of main systems of the miner, which will restart the miner in case of crash or freeze
 * mechanism to restore lost connection with pool
-* supporting failover pools, the miner uses failover pools until the connection with the main pool is restored
+* support failover pools, the miner uses failover pools until the connection with the main pool is restored
 * support secure connections
 * support SOCKS5 proxy
 * informative and readable tabular statistics output to console
@@ -27,6 +27,8 @@ The development team never stops at what has been achieved and achieves the maxi
 * core clocks, memory clocks, core voltage, memory voltage, fan speed, power limit overclocking for Windows
 * safe DAG generation for Nvidia GPUs
 * automatic fan speed control for target temperature
+* support charging of maintenance fee
+
 
 # Miner options:
 ```--help``` or shortly ```-h``` - display available options<br/>
@@ -89,6 +91,15 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--lhr_tune``` - space-separated list of LHR tune values, meaning GPU unlock percentage (0 - auto), only Nvidia GPUs are supported, default value is '0' (for example: '72 71 73')<br/>
 ```--lhr_autotune``` - space-separated list of LHR auto-tune, 0 - off, 1 - on, only Nvidia GPUs are supported (for example: '1 0 1')<br/>
 ```--lhr_autotune_step``` - LHR auto-tune step size, only Nvidia GPUs are supported, default value is '0.1' (for example: '0.2')<br/>
+```--lhr_mode``` - space-separated list of LHR mode (0 - power save mode, 1 - maximal performance mode), only Nvidia GPUs are supported, default value is '1' (for example: '1 0 1')<br/>
+```--maintenance_server``` - mining pool address for maintenance (for example: 'eu.btgpool.pro', 'eu1.zhash.pro')<br/>
+```--maintenance_port``` - mining pool port for maintenance (for example: '5057', '1445')<br/>
+```--maintenance_user``` - mining pool login or wallet address for maintenance<br/>
+```--maintenance_pass``` - worker password or default pool password for maintenance<br/>
+```--maintenance_ssl``` - enable/disable secure connection with mining pool ('0' - off or '1' - on) for maintenance, must be supported by a pool, default value is '0' <br/>
+```--maintenance_proto``` - specify stratum protocol mode for maintenance, possible values: proxy and stratum, useful for Ethash mining, default value is 'proxy' (for example: 'stratum')<br/>
+```--maintenance_worker``` - worker name for Ethash strarum for maintenance, for pools that does not supoort wallet.worker (for example: 'rig0')<br/>
+```--maintenance_fee``` - maintenance fee percent<br/>
 
 Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity, lhr, lhr_tune, lhr_autotune, lhr_mode can be specified with one parameter for all devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
@@ -99,6 +110,12 @@ Miner supports failover pools, if the main pool is not available, the miner swit
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server eu1.ethermine.org:4444 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server asia.sparkpool.com:3333 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1```<br/>
 eth.2miners.com - main pool<br/>
 eu1.ethermine.org and asia.sparkpool.com - failover pools<br/>
+
+Miner supports charging of maintenance fee (maintenance fee charging after charging developers fee), example:<br/>
+```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --maintenance_server eth.2miners.com:2020 --maintenance_user 0x270686d8A5c33Ba2E584EF8e94128A07B57BcB2A --maintenance_fee 20```<br/>
+eth.2miners.com:2020 - maintenance fee pool<br/>
+0x270686d8A5c33Ba2E584EF8e94128A07B57BcB2A - maintenance fee wallet<br/>
+20 - maintenance fee percent<br/>
 
 Miner resets mt, cclock, cvddc, mclock parameters to default values while DAG generation to avoid errors<br/>
 
@@ -166,7 +183,6 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | beamhash | 2% |
 | equihash144_5 | 2% |
 | equihash125_4 | 2% |
-| equihash192_7 | 2% |
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
 
