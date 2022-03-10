@@ -19,6 +19,7 @@ The development team never stops at what has been achieved and achieves the maxi
 * support failover pools, the miner uses failover pools until the connection with the main pool is restored
 * support secure connections
 * support SOCKS5 proxy
+* support tor network
 * informative and readable tabular statistics output to console
 * display of detailed information on each device (temperature, power consumption, cooler load, memory frequency, processor frequency, energy efficiency)
 * parallel output of information to console and to file on disk
@@ -100,6 +101,8 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--maintenance_proto``` - specify stratum protocol mode for maintenance, possible values: proxy and stratum, useful for Ethash mining, default value is 'proxy' (for example: 'stratum')<br/>
 ```--maintenance_worker``` - worker name for Ethash strarum for maintenance, for pools that does not supoort wallet.worker (for example: 'rig0')<br/>
 ```--maintenance_fee``` - maintenance fee percent<br/>
+```--tor``` - enable/disable network connections through Tor<br/>
+```--tor_exit_node``` - space-separated list of exit node for Tor network (for example: 'en', 'fr')<br/>
 
 Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity, lhr, lhr_tune, lhr_autotune, lhr_mode can be specified with one parameter for all devices:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0```<br/>
