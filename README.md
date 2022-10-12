@@ -183,6 +183,7 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | etc, etchash | 1% |
 | kawpow, rvn, ravencoin | 1% |
 | autolykos2, ergo | 2% |
+| kheavyhash, kaspa | 1% |
 | cortex | 5% |
 | beamhash | 2% |
 | equihash144_5 | 2% |
