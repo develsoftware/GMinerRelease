@@ -179,9 +179,9 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 # Supported algorithms and developer commission:
 |algorithm|fee|
 |-|-|
-| eth, ethash | 1% |
-| etc, etchash | 1% |
-| kawpow, rvn, ravencoin | 1% |
+| eth, ethash | 2% |
+| etc, etchash | 2% |
+| kawpow, rvn, ravencoin | 2% |
 | autolykos2, ergo | 2% |
 | kheavyhash, kaspa | 1% |
 | cortex | 5% |
