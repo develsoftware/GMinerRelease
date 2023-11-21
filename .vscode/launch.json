@@ -1,0 +1,110 @@
+{
+    // Pro informace o možných atributech použijte technologii IntelliSense.
+    // Umístěním ukazatele myši zobrazíte popisy existujících atributů.
+    // Další informace najdete tady: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "(gdb) Připojit",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "zadejte název programu, třeba ${workspaceFolder}/a.out",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Povolit přehledný výpis pro gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Nastavte variantu zpětného překladu na Intel.",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Python: Aktuální soubor",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "(gdb) Připojit",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "zadejte název programu, třeba ${workspaceFolder}/a.out",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Povolit přehledný výpis pro gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Nastavte variantu zpětného překladu na Intel.",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "(gdb) Připojit",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "zadejte název programu, třeba ${workspaceFolder}/a.out",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Povolit přehledný výpis pro gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Nastavte variantu zpětného překladu na Intel.",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
