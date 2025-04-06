@@ -1,0 +1,144 @@
+# MINING SOFTWARE NON EXCLUSIVE LICENSE AGREEMENT
+
+## IMPORTANT NOTICE: 
+This is a translation of the Russian agreement. In case of discrepancies, the Russian version prevails. 
+By installing, downloading, or using the Software, you accept the terms of this agreement. This agreement constitutes a public offer under Article 435 of the Civil Code of the Russian Federation. Use of the Software constitutes acceptance (Article 438).
+
+## SUMMARY
+- The Software mines cryptocurrency. The User is solely responsible for ensuring that their use of the Software complies with any laws, regulations, or licensing requirements related to cryptocurrency mining in their jurisdiction.
+- The Software may be installed on the User’s devices, launched, and used within its intended functionality, without the right to modify, decompile, distribute, or use it in any other manner.
+- The Software automatically allocates a specified percentage of User’s mining power as payment to developers.
+- Provided by a Russian company, governed by Russian law.
+
+## DEFINITIONS
+- "Software": Mining program “GMiner” owned by the Developer.
+- "Developer":OOO “DevelSoft”, registered in Russia, OGRN 1136451001280, INN 6451000678, 
+- "User": Any individual or entity using the Software.
+- "Dev fee": Percentage of computing power automatically allocated for Developer’s wallet mining.
+
+## LICENSE TERMS
+- Developer grants User a non-exclusive license to install, run, and use the Software.
+- The license is granted for an indefinite term.
+- Territory: worldwide.
+- This license applies to the current version of the Software and all subsequent updates provided by the Developer through the official GitHub repository at the link specified below.
+
+## DEV FEE
+- The Software automatically allocates the percentage of the User’s computing power specified below, depending on the algorithm used, to mine cryptocurrency directly to the Developer’s wallet as consideration under this license agreement.
+
+### Dev fee by Algorithm:
+| Algorithm| Fee |
+|-|-|
+| eth, ethash | 2% |
+| etc, etchash | 2% |
+| kawpow, rvn, ravencoin | 2% |
+| autolykos2, ergo | 2% |
+| kheavyhash, kaspa | 1% |
+| cortex | 5% |
+| beamhash | 2% |
+| equihash144_5 | 2% |
+| equihash125_4 | 2% |
+| equihash210_9 | 2% |
+| cuckoo29, aeternity | 2% |
+
+## ACCEPTABLE USE
+- User may download the Software only from the official GitHub repository: https://github.com/develsoftware/GMinerRelease/releases.
+- User may not disassemble, decompile, adapt, modify, or otherwise infringe the rights or cause damage to the Developer.
+- Using the Software contrary to its intended purpose constitutes a violation of Developer's exclusive rights, subject to civil, administrative, and criminal liability.
+- Upon violation of these terms or actions harming the Developer, User forfeits all rights to use the Software and must cease its use, destroy all copies, and refrain from further usage.
+
+## LIABILITY LIMITATIONS
+- Software provided "as is" without any warranties.
+- Developer’s liability is limited to the extent permitted by Russian law.
+- Developer does not guarantee income or profit from using the Software.
+- User solely bears all cryptocurrency mining risks, including the compliance with the cryptocurrency mining regulations in their respective jurisdiction.
+- Critical defects will be remedied by Developer at its discretion as promptly as possible upon notification.
+- Developer is not responsible for any damage resulting from the use or inability to use the Software.
+- User is solely responsible for compliance with applicable international sanctions and export controls.
+- Developer does not verify User compliance with sanction regulations.
+
+## TERMINATION
+- User may terminate the agreement by ceasing the Software use.
+- Developer may terminate license upon User's breach of terms.
+
+## GOVERNING LAW
+- Agreement governed by laws of the Russian Federation.
+- Disputes resolved in Russian courts.
+
+
+Last updated: 31.03.2025
+
+---
+
+# НЕИСКЛЮЧИТЕЛЬНАЯ ЛИЦЕНЗИЯ НА ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ДЛЯ МАЙНИНГА
+
+## ВАЖНОЕ УВЕДОМЛЕНИЕ:
+Используя, устанавливая или загружая Программное обеспечение, вы соглашаетесь с условиями настоящего лицензионного соглашения. Настоящее соглашение является публичной офертой в соответствии со статьёй 435 Гражданского кодекса Российской Федерации. Использование Программного обеспечения означает акцепт оферты (статья 438 ГК РФ).
+Перевод на английский язык предоставлен исключительно для удобства. В случае расхождений между версиями приоритет имеет настоящая русская версия.
+
+
+## ОСНОВНЫЕ ПОЛОЖЕНИЯ
+- Программное обеспечение (“ПО”) предназначено для майнинга криптовалют. Пользователь самостоятельно несёт ответственность за соответствие использования Программного обеспечения законам, нормативным актам и требованиям лицензирования, действующим в их юрисдикции.
+- ПО может быть установлено на устройства Пользователя, запускаться и использоваться в рамках его функционального назначения. Пользователю запрещено модифицировать, декомпилировать, распространять или использовать ПО иным образом.
+- ПО автоматически выделяет определённый процент вычислительной мощности Пользователя в пользу Разработчика в качестве платы.
+- ПО предоставляется российской компанией и регулируется законодательством Российской Федерации.
+
+
+## ОПРЕДЕЛЕНИЯ
+- "Программное обеспечение (ПО)" – Программа для майнинга “GMiner”, принадлежащая
+ Разработчику. 
+- "Разработчик" – ООО “ДевелСофт”, зарегистрированное по праву Российской Федерации,
+ ОГРН: 1136451001280, ИНН: 6451000678.
+- "Пользователь" – Любое физическое или юридическое лицо, использующее, устанавливающее или загружающее ПО.
+- "Комиссия разработчика" – процент вычислительной мощности устройства Пользователя, автоматически направляемый на майнинг в пользу кошелька Разработчика.
+
+## УСЛОВИЯ ЛИЦЕНЗИИ
+- Разработчик предоставляет Пользователю неисключительную лицензию на воспроизведение, установку и использование ПО.
+- Лицензия действует бессрочно.
+- Территория действия лицензии — весь мир.
+- Действие настоящей лицензии распространяется на текущую версию Программного обеспечения и все последующие обновления, предоставляемые Разработчиком через официальный репозиторий GitHub, по ссылке, указанной ниже.
+
+## КОМИССИЯ РАЗРАБОТЧИКА
+- ПО автоматически направляет указанный ниже процент вычислительной мощности оборудования Пользователя, в зависимости от используемого алгоритма, на майнинг криптовалюты непосредственно на кошелёк Разработчика в качестве вознаграждения по настоящему лицензионному соглашению.
+
+### Комиссия разработчика по алгоритмам:
+| Алгоритм | Комиссия |
+|-----------|-----|
+| eth, ethash | 2% |
+| etc, etchash | 2% |
+| kawpow, rvn, ravencoin | 2% |
+| autolykos2, ergo | 2% |
+| kheavyhash, kaspa | 1% |
+| cortex | 5% |
+| beamhash | 2% |
+| equihash144_5 | 2% |
+| equihash125_4 | 2% |
+| equihash210_9 | 2% |
+| cuckoo29, aeternity | 2% |
+
+## УСЛОВИЯ ИСПОЛЬЗОВАНИЯ
+- Пользователь вправе загружать ПО исключительно с официального репозитория GitHub: https://github.com/develsoftware/GMinerRelease/releases.
+- Пользователь не вправе дизассемблировать, декомпилировать, адаптировать, модифицировать или распространять ПО или иным образом нарушать права Разработчика либо причинять ему ущерб.
+- Использование ПО не по его назначению рассматривается как нарушение исключительных прав Разработчика и может повлечь гражданскую, административную и уголовную ответственность.
+- В случае нарушения условий или причинения вреда Разработчику Пользователь утрачивает право на использование ПО, обязан прекратить его использование, удалить все экземпляры и воздержаться от дальнейшего использования.
+
+
+## ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
+- Программное обеспечение предоставляется «как есть» без каких-либо гарантий.
+- Ответственность Разработчика ограничивается в объёме, допустимом законодательством Российской Федерации.
+- Разработчик не гарантирует получение Пользователем дохода или прибыли от использования ПО.
+- Все риски, связанные с майнингом криптовалют (в том числе соблюдение нормативных требований в юрисдикции Пользователя), лежат исключительно на Пользователе.
+- Критические ошибки устраняются Разработчиком по его усмотрению в разумные сроки после получения уведомления.
+- Разработчик не несёт ответственности за любые убытки, возникшие вследствие использования или невозможности использования ПО.
+- Пользователь несёт полную ответственность за соблюдение международных санкций и экспортного контроля.
+- Разработчик не осуществляет проверку соблюдения санкционного законодательства Пользователем.
+## РАСТОРЖЕНИЕ
+- Пользователь может прекратить использование Программного обеспечения в любой момент.
+- Разработчик вправе прекратить действие настоящей лицензии при нарушении ее условий Пользователем.
+## ПРИМЕНИМОЕ ПРАВО
+- Настоящее соглашение регулируется законодательством Российской Федерации.
+- Все споры подлежат рассмотрению в судах Российской Федерации.
+
+
+
+Дата последнего обновления: 31.03.2025
+
