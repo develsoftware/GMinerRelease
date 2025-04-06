@@ -198,3 +198,7 @@ BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0 <br/>
 Discord: https://discord.gg/J7RUG3FDYw <br/>
 Telegram chat: https://t.me/gminer_talk <br/>
 Telegram announcements: https://t.me/gminer_releases <br/>
+
+# EULA:
+
+This software is distributed under a non-exclusive license https://github.com/develsoftware/GMinerRelease/blob/master/EULA.txt . By installing, downloading, or using the software, you accept the terms of this agreement.
