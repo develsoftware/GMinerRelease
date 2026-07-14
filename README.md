@@ -196,8 +196,8 @@ Official site: http://gminer.pro <br/>
 Github: https://github.com/develsoftware/GMinerRelease <br/>
 BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0 <br/>
 Discord: https://discord.gg/J7RUG3FDYw <br/>
-Telegram chat: https://t.me/gminer_talk <br/>
-Telegram announcements: https://t.me/gminer_releases <br/>
+Telegram chat: https://telegram.me/gminer_talk <br/>
+Telegram announcements: https://telegram.me/gminer_releases <br/>
 
 # EULA:
 
