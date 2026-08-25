@@ -1,33 +1,106 @@
-# MINING SOFTWARE NON EXCLUSIVE LICENSE AGREEMENT
+# GMINER GPU MINER END USER LICENSE AGREEMENT
+# NON-EXCLUSIVE SOFTWARE LICENSE
 
-## IMPORTANT NOTICE: 
-This is a translation of the Russian agreement. In case of discrepancies, the Russian version prevails. 
-By installing, downloading, or using the Software, you accept the terms of this agreement. This agreement constitutes a public offer under Article 435 of the Civil Code of the Russian Federation. Use of the Software constitutes acceptance (Article 438).
+Version 2.0
+Last updated: 19 August 2026
 
-## SUMMARY
-- The Software mines cryptocurrency. The User is solely responsible for ensuring that their use of the Software complies with any laws, regulations, or licensing requirements related to cryptocurrency mining in their jurisdiction.
-- The Software may be installed on the User’s devices, launched, and used within its intended functionality, without the right to modify, decompile, distribute, or use it in any other manner.
-- The Software automatically allocates a specified percentage of User’s mining power as payment to developers.
-- Provided by a Russian company, governed by Russian law.
+Copyright © 2018–2026 OOO "DevelSoft". All rights reserved.
 
-## DEFINITIONS
-- "Software": Mining program “GMiner” owned by the Developer.
-- "Developer":OOO “DevelSoft”, registered in Russia, OGRN 1136451001280, INN 6451000678, 
-- "User": Any individual or entity using the Software.
-- "Dev fee": Percentage of computing power automatically allocated for Developer’s wallet mining.
+## IMPORTANT NOTICE
 
-## LICENSE TERMS
-- Developer grants User a non-exclusive license to install, run, and use the Software.
-- The license is granted for an indefinite term.
-- Territory: worldwide.
-- This license applies to the current version of the Software and all subsequent updates provided by the Developer through the official GitHub repository at the link specified below.
+This English text is a translation of the Russian version of this Agreement and is provided for convenience only. If the English and Russian texts differ, the Russian version prevails.
 
-## DEV FEE
-- The Software automatically allocates the percentage of the User’s computing power specified below, depending on the algorithm used, to mine cryptocurrency directly to the Developer’s wallet as consideration under this license agreement.
+Please read this Agreement before downloading or using the Software. By downloading, copying, installing, launching, accessing, or otherwise using the Software, the User confirms that the User has read, understood, and accepted this Agreement in full. If the User does not accept this Agreement, the User must not download, install, launch, or use the Software and must delete all copies in the User's possession or control.
 
-### Dev fee by Algorithm:
-| Algorithm| Fee |
-|-|-|
+## 1. DEFINITIONS
+
+1.1. "Developer" means OOO "DevelSoft", a company incorporated under the laws of the Russian Federation, OGRN 1136451001280, INN 6451000678.
+
+1.2. "Software" means the GMiner GPU mining program released by the Developer, in any version, including its executable and object code, libraries, scripts, configuration files, update files, and other files included by the Developer in an Official Package.
+
+1.3. "Official Package" means an archive, installer, or other software package published by the Developer through an Official Download Source without unauthorized modification.
+
+1.4. "Materials" means documentation and other content created or published by the Developer in connection with the Software, including README files, instructions, descriptions of command-line parameters, configuration examples, release notes, website and repository text, tables, screenshots, images, graphics, and other accompanying content.
+
+1.5. "Brand Elements" means the name GMiner, the GMiner logo, visual identity, graphics, and other designations used by the Developer to identify the Software or the Developer's official resources. Nothing in this Agreement represents that any particular Brand Element is a registered trademark unless expressly stated by the Developer.
+
+1.6. "Official Download Source" means:
+
+- https://github.com/develsoftware/GMinerRelease/releases
+
+and any other source expressly identified by the Developer in writing as an official download source.
+
+1.7. "Official Resources" means the following resources currently identified by the Developer:
+
+- Official website: https://gminer.pro
+- Official GitHub repository: https://github.com/develsoftware/GMinerRelease
+- Official releases: https://github.com/develsoftware/GMinerRelease/releases
+- Official BitcoinTalk topic: https://bitcointalk.org/index.php?topic=5034735.0
+- Official Discord: https://discord.gg/J7RUG3FDYw
+- Official Telegram chat: https://telegram.me/gminer_talk
+- Official Telegram announcements: https://telegram.me/gminer_releases
+
+Official Resources other than an Official Download Source are official information or community channels only. A file is an Official Package only if it is served from an Official Download Source or supplied by an Authorized Distributor. A link from an Official Resource does not authorize that resource or any third party to host a copy of the Software.
+
+1.8. "Authorized Distributor" means a person or entity that has received the Developer's prior express written permission to distribute the Software. Permission to distribute the Software is limited to the methods, versions, territory, and term expressly stated in that written permission.
+
+1.9. "User" means any individual or legal entity that downloads, copies, installs, launches, accesses, or otherwise uses the Software. A person accepting this Agreement on behalf of an entity represents that the person has authority to bind that entity.
+
+1.10. "Developer Fee" means the percentage of the User's computing power automatically allocated by the Software to mine cryptocurrency for a wallet designated by the Developer as consideration for the license granted under this Agreement.
+
+1.11. "Maintenance Fee" means an optional additional fee that may be configured by the User or an authorized administrator through the Software's maintenance-fee functionality for the benefit of a wallet selected by that User or administrator.
+
+1.12. "Distribution" means transferring a copy of the Software to a third party or enabling a third party to obtain a copy of the Software, including by hosting, uploading, publishing, mirroring, caching, transmitting, seeding, bundling, or otherwise making the Software available through a website, file-hosting service, content delivery network, cloud storage, repository, peer-to-peer or torrent network, operating-system image, container, software bundle, installer, package, application catalog, or any other product, service, or distribution channel, whether or not for payment and whether or not the Software has been modified.
+
+## 2. CONCLUSION AND ACCEPTANCE OF THE AGREEMENT
+
+2.1. This Agreement is a public offer under Articles 435, 437, and 438 of the Civil Code of the Russian Federation and a license agreement concluded in a simplified manner under Article 1286(5) of the Civil Code of the Russian Federation.
+
+2.2. The User accepts this Agreement by beginning to use the Software. For purposes of this Agreement, beginning to use the Software includes downloading, copying, installing, launching, loading into computer memory, or otherwise using the Software or any of its functionality.
+
+2.3. Acceptance is unconditional and applies to this Agreement as a whole. The User may not accept only selected provisions.
+
+2.4. If the User downloads or uses the Software on behalf of another person or entity, the User confirms that the User has obtained all required authority and permissions.
+
+## 3. OWNERSHIP AND RESERVATION OF RIGHTS
+
+3.1. The Software is licensed, not sold. The Developer retains all exclusive rights and other intellectual-property rights in and to the Software, the Official Packages, the Materials, and the Developer's original Brand Elements, except for third-party components and materials owned by their respective right holders.
+
+3.2. This Agreement grants only the limited rights expressly stated in Section 4. No ownership, source-code rights, copyright, trademark rights, or other intellectual-property rights are transferred to the User.
+
+3.3. All rights not expressly granted under this Agreement are reserved by the Developer.
+
+3.4. The Software and Materials are protected by copyright and other applicable laws independently of whether a particular person accepts this Agreement. Publication of the Software or Materials on the Internet does not place them in the public domain and does not grant permission to copy, republish, or distribute them.
+
+3.5. Names and trademarks of NVIDIA, AMD, cryptocurrencies, mining pools, operating systems, and other third parties belong to their respective owners. Their mention does not imply sponsorship, endorsement, or affiliation unless expressly stated.
+
+3.6. Rights that GitHub and GitHub users receive solely under GitHub's applicable terms for viewing and reproducing repository content through GitHub's public-repository and fork functionality are not expanded by this Agreement. Those platform-specific rights do not authorize hosting or distributing the Software outside the permitted GitHub functionality or using the Materials outside the scope of those terms.
+
+## 4. LICENSE GRANT
+
+4.1. Subject to the User's continuous compliance with this Agreement, the Developer grants the User a limited, non-exclusive, non-transferable, and non-sublicensable license to:
+
+- download an Official Package from an Official Download Source or obtain it from an Authorized Distributor;
+- reproduce the Software only to the extent technically necessary to install, load, launch, and use it;
+- install, launch, and use the Software for its intended cryptocurrency-mining functionality on devices owned, controlled, or lawfully administered by the User; and
+- create a backup copy only to the extent permitted by applicable mandatory law.
+
+4.2. The license is granted worldwide for the duration of the exclusive right in the Software, unless terminated earlier under this Agreement.
+
+4.3. Each version of the Software is governed by the version of this Agreement included in its Official Package or expressly published by the Developer for that version. By installing or using an update, the User accepts the agreement accompanying that update.
+
+4.4. The license does not include any right to distribute the Software, provide access to copies of the Software to third parties, sublicense the Software, or use the Software to provide an unauthorized software-distribution service.
+
+4.5. The User may permit employees, contractors, or administrators to operate the Software solely on the User's behalf and on devices lawfully controlled by the User, provided that the User remains responsible for their compliance with this Agreement. This permission does not allow any such person to retain, redistribute, or independently use copies of the Software outside that scope.
+
+## 5. DEVELOPER FEE AND MAINTENANCE FEE
+
+5.1. The license is granted for consideration. During mining, the Software automatically allocates the applicable percentage of the User's computing power to mine cryptocurrency directly for a wallet designated by the Developer. The Developer Fee is charged continuously rather than only in fixed time intervals.
+
+5.2. According to the current official README, the Developer Fee for the listed algorithms is:
+
+| Algorithm | Developer Fee |
+|-----------|---------------|
 | eth, ethash | 2% |
 | etc, etchash | 2% |
 | kawpow, rvn, ravencoin | 2% |
@@ -40,69 +113,255 @@ By installing, downloading, or using the Software, you accept the terms of this 
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
 
-## ACCEPTABLE USE
-- User may download the Software only from the official GitHub repository: https://github.com/develsoftware/GMinerRelease/releases.
-- User may not disassemble, decompile, adapt, modify, or otherwise infringe the rights or cause damage to the Developer.
-- Using the Software contrary to its intended purpose constitutes a violation of Developer's exclusive rights, subject to civil, administrative, and criminal liability.
-- Upon violation of these terms or actions harming the Developer, User forfeits all rights to use the Software and must cease its use, destroy all copies, and refrain from further usage.
+5.3. For an algorithm, combined-mining mode, or other mode not listed in Section 5.2, the applicable Developer Fee is the fee expressly displayed by the Software or stated in the official documentation or release notes accompanying the relevant version. If the displayed and documented values differ, the value displayed by that version of the Software during operation applies, provided that it was not altered by the User or a third party.
 
-## LIABILITY LIMITATIONS
-- Software provided "as is" without any warranties.
-- Developer’s liability is limited to the extent permitted by Russian law.
-- Developer does not guarantee income or profit from using the Software.
-- User solely bears all cryptocurrency mining risks, including the compliance with the cryptocurrency mining regulations in their respective jurisdiction.
-- Critical defects will be remedied by Developer at its discretion as promptly as possible upon notification.
-- Developer is not responsible for any damage resulting from the use or inability to use the Software.
-- User is solely responsible for compliance with applicable international sanctions and export controls.
-- Developer does not verify User compliance with sanction regulations.
+5.4. The Developer may establish different Developer Fee rates for future versions, algorithms, or operating modes. A changed rate applies only to a version whose Software, Official Package, official documentation, or release notes disclose that rate. Installing or using that version constitutes acceptance of its applicable rate.
 
-## TERMINATION
-- User may terminate the agreement by ceasing the Software use.
-- Developer may terminate license upon User's breach of terms.
+5.5. The User must not disable, bypass, block, reduce, redirect, substitute, conceal, manipulate, or otherwise interfere with the Developer Fee, the Developer's designated wallet, the fee connection, or any technical mechanism used to calculate or charge the Developer Fee.
 
-## GOVERNING LAW
-- Agreement governed by laws of the Russian Federation.
-- Disputes resolved in Russian courts.
+5.6. The Software supports an optional Maintenance Fee. When configured, the Maintenance Fee is charged after the Developer Fee and does not replace, reduce, offset, or cancel the Developer Fee.
 
+5.7. The Developer does not select the Maintenance Fee recipient and is not a party to any arrangement between the User, an administrator, a service provider, and the Maintenance Fee recipient, unless the Developer expressly agrees otherwise in writing. The person configuring a Maintenance Fee is solely responsible for obtaining authorization from the equipment owner and for complying with all applicable disclosure, contractual, tax, and other legal requirements.
 
-Last updated: 31.03.2025
+5.8. A percentage of computing power does not guarantee an identical percentage of pool rewards, cryptocurrency received, time, accepted shares, or monetary value. Actual results may vary because of pool rules, network conditions, mining difficulty, latency, hardware performance, rejected shares, and other factors outside the Developer's control.
+
+## 6. OFFICIAL SOURCES AND FILE AUTHENTICITY
+
+6.1. Except where the Software is supplied by an Authorized Distributor, the User may obtain the Software only from the Official Download Source.
+
+6.2. A website, repository, application, mining operating system, service, social-media account, or other resource is not authorized to host or distribute copies of the Software merely because it links to, mentions, reviews, integrates with, or provides instructions for GMiner.
+
+6.3. Software obtained from any unauthorized source may be modified, outdated, incomplete, malicious, or falsely presented as official. The User assumes all risks associated with obtaining or using such a copy.
+
+6.4. Where checksums, digital signatures, filenames, or other authenticity information are published by the Developer, the User should verify them before use. Removal or alteration of authenticity information is prohibited.
+
+6.5. To the maximum extent permitted by law, the Developer is not responsible for any software, archive, installer, modification, malware, loss, or damage originating from an unauthorized source or an unauthorized distributor.
+
+## 7. PROHIBITED USE AND REDISTRIBUTION
+
+7.1. Unless the Developer has given prior express written permission, the User must not, directly or indirectly:
+
+1. distribute, publish, re-upload, host, mirror, cache, transmit, seed, sell, rent, lease, sublicense, lend, donate, or otherwise make the Software or an Official Package available to any third party;
+
+2. place the Software on websites, download portals, file-hosting services, content delivery networks, cloud storage, repositories, peer-to-peer or torrent networks, social networks, messenger channels, or other third-party services;
+
+3. include the Software in an operating-system image, mining image, firmware image, container, virtual-machine image, software bundle, installer, archive, package, application catalog, automated deployment service, or any other product or service;
+
+4. operate a mirror, proxy, relay, wrapper, redirect, shortened link, framed page, or download button that delivers or presents a direct Software file in a manner that substitutes for an Official Download Source or creates an impression that the third-party resource is an official or authorized GMiner download source;
+
+5. modify, patch, translate, adapt, recompile, repackage, rename, supplement, or create derivative versions of the Software or an Official Package;
+
+6. add, replace, or inject files, code, advertisements, miners, wallets, malware, telemetry, loaders, scripts, or other components into an Official Package or present a modified package as GMiner;
+
+7. disassemble, decompile, reverse engineer, decrypt, extract, analyze, or attempt to obtain source code, algorithms, private protocols, security mechanisms, or other internal elements of the Software;
+
+8. bypass, disable, reduce, redirect, or interfere with the Developer Fee, licensing logic, authenticity checks, security measures, or technical restrictions;
+
+9. remove, obscure, alter, or falsify copyright notices, this Agreement, information about the Developer, filenames, version information, digital signatures, checksums, or other notices or authenticity data;
+
+10. use the Software on devices, accounts, wallets, or computing resources without the informed authorization of their lawful owner or administrator, including for cryptojacking, botnets, malware, unauthorized remote mining, or any other unlawful activity;
+
+11. use the Software in a manner intended to damage the Developer, the Software, other users, networks, pools, or third parties, or to infringe their rights; or
+
+12. assist, encourage, enable, or instruct another person to perform any prohibited act listed in this Section.
+
+7.2. Section 7.1 applies except to the limited extent that an act is expressly permitted by mandatory applicable law and such permission cannot lawfully be excluded by agreement. Any reverse engineering or decompilation permitted by mandatory law must be limited to the minimum scope and purpose allowed by that law, and information obtained from it must not be used to create a substantially similar program, distribute the Software, bypass the Developer Fee, or otherwise infringe the Developer's rights.
+
+7.3. Written permission to distribute, modify, or otherwise use the Software outside Section 4 is valid only if issued by the Developer or its duly authorized representative and only within the expressly stated scope. Silence, failure to object, prior tolerance, availability of files on the Internet, or a link from an Official Resource does not constitute permission.
+
+## 8. HYPERLINKS, MATERIALS, AND BRAND ELEMENTS
+
+8.1. A third-party resource may publish an ordinary, clearly labeled text hyperlink to an Official Resource or Official Download Source, provided that the link:
+
+- accurately identifies the destination as an official GMiner resource;
+- does not imply affiliation, authorization, sponsorship, partnership, ownership, or endorsement;
+- does not frame, proxy, conceal, alter, or intercept the destination;
+- does not present a direct Software file as a download supplied by the third party; and
+- is not accompanied by unauthorized copies of the Software, Materials, or Brand Elements.
+
+8.2. The Materials are provided solely to explain, install, configure, and use the Software. No general right to republish, distribute, translate, adapt, or commercially exploit the Materials is granted.
+
+8.3. Unless permitted by the Developer in writing or by mandatory applicable law, no person may reproduce or republish substantial portions of the Materials, systematically extract or scrape them for republication, create translated or adapted copies, or use them to create a third-party GMiner download site, documentation clone, application catalog, search-engine-optimization page, advertising page, or competing informational resource.
+
+8.4. Brief quotations from the Materials may be used for genuine news reporting, review, criticism, comparison, or instructional commentary to the extent permitted by applicable law, provided that the quotation is proportionate to the purpose, the source and GMiner are clearly identified, and a visible link to the relevant Official Resource is provided where technically possible. This permission does not cover copying the structure, selection, screenshots, tables, examples, or substantial text of the Materials.
+
+8.5. No license to use the Brand Elements is granted except for limited truthful reference to GMiner as necessary to identify the Software. Without the Developer's prior written permission, the Brand Elements may not be used in a domain name, website or application name, social-media account, repository name, advertisement, metadata, search advertisement, logo, icon, download button, page design, or other presentation in a manner likely to create confusion or a false impression of an official source, affiliation, authorization, partnership, sponsorship, or endorsement.
+
+8.6. A disclaimer such as "unofficial" does not authorize copying or distribution and does not cure otherwise confusing, misleading, or infringing use of the Software, Materials, or Brand Elements.
+
+## 9. USER RESPONSIBILITIES AND LEGAL COMPLIANCE
+
+9.1. The User is solely responsible for ensuring that downloading, possessing, installing, configuring, and using the Software and mining cryptocurrency are lawful in every applicable jurisdiction.
+
+9.2. The User is solely responsible for compliance with laws and requirements concerning cryptocurrency mining, licensing, registration, taxation, electricity use, data protection, computer access, telecommunications, sanctions, and export controls.
+
+9.3. The Developer does not verify the User's legal status, authority over equipment, compliance with sanctions, or right to use any wallet, mining pool, proxy, Tor node, network, account, or third-party service.
+
+9.4. The User is responsible for securing devices, credentials, wallets, pool accounts, remote interfaces, APIs, configuration files, and network access. Features that require administrator privileges or expose monitoring or control interfaces must be enabled only after the User assesses and accepts the associated security risks.
+
+9.5. The User is responsible for all configuration and overclocking decisions, including core clocks, memory clocks, voltages, fan speeds, power limits, temperature limits, memory tweaks, kernels, intensity, and other hardware-related settings.
+
+## 10. SOFTWARE RISKS AND DISCLAIMER OF WARRANTIES
+
+10.1. The Software is provided "AS IS" and "AS AVAILABLE", without warranties of any kind, to the maximum extent permitted by applicable law.
+
+10.2. The Developer does not warrant that the Software will be uninterrupted, error-free, secure, compatible with any particular hardware, driver, operating system, pool, network, or cryptocurrency, or that defects will be corrected.
+
+10.3. The Developer does not guarantee hashrate, energy efficiency, accepted shares, uptime, cryptocurrency rewards, income, profit, return on investment, or any other result.
+
+10.4. Cryptocurrency mining, overclocking, undervolting, changing power limits, modifying fan behavior, and operating hardware under sustained load involve risks, including instability, invalid shares, data loss, overheating, accelerated wear, hardware failure, fire, electrical damage, and loss of cryptocurrency. The User assumes these risks.
+
+10.5. Temperature monitoring, automatic fan control, DAG verification, share verification, watchdog, failover, reconnect, safe-DAG, and similar features reduce certain risks but are not safety systems and do not guarantee prevention of overheating, crashes, invalid shares, connection loss, hardware damage, or other failures.
+
+10.6. Pools, wallets, drivers, GPU vendors, operating systems, networks, proxies, Tor nodes, exchanges, and other third-party products and services are outside the Developer's control. The Developer is not responsible for their availability, security, rules, actions, omissions, fees, losses, or results.
+
+10.7. The Developer may investigate and remedy critical defects at its discretion after receiving sufficient information, but no statement in documentation, release notes, a community channel, or support communication creates a warranty or guaranteed correction deadline.
+
+## 11. LIMITATION OF LIABILITY
+
+11.1. To the maximum extent permitted by applicable law, the Developer is not liable for direct or indirect losses arising from or related to use of, inability to use, configuration of, or reliance on the Software, including loss of profits, cryptocurrency, revenue, data, hardware, electricity, business opportunities, or reputation.
+
+11.2. The Developer is not liable for rejected or stale shares, pool-side accounting, wallet errors, network outages, changes in mining difficulty or cryptocurrency protocols, regulatory actions, sanctions, third-party claims, unauthorized access, or files obtained from unauthorized sources.
+
+11.3. Nothing in this Agreement excludes or limits liability or mandatory rights that cannot lawfully be excluded or limited. If a limitation is invalid in a particular jurisdiction, it applies to the maximum extent permitted there.
+
+## 12. TERMINATION AND REMEDIES
+
+12.1. The User may terminate this Agreement at any time by ceasing all use of the Software and deleting all copies under the User's possession or control.
+
+12.2. The license terminates automatically and immediately if the User breaches this Agreement. Upon termination, the User must cease using the Software, delete all copies, stop all Distribution, and remove all unauthorized copies of the Materials and Brand Elements under the User's control.
+
+12.3. Unauthorized reproduction, Distribution, modification, republication of Materials, interference with the Developer Fee, or misleading use of Brand Elements may constitute infringement of the Developer's exclusive rights in addition to breach of contract.
+
+12.4. The Developer may use any remedies available under applicable law, including demands to cease infringement, removal or disabling of access, notices to hosting providers, repositories, platforms, search engines, and other intermediaries, blocking or de-indexing requests, recovery of damages or statutory compensation, and applications for interim or permanent injunctive relief.
+
+12.5. Failure or delay by the Developer to enforce any provision does not waive the Developer's rights and does not authorize the same or similar conduct in the future.
+
+12.6. Sections concerning ownership, Developer Fee obligations accrued before termination, prohibited Distribution, Materials, Brand Elements, disclaimers, limitation of liability, remedies, and governing law survive termination to the extent required by their nature.
+
+## 13. GOVERNING LAW AND DISPUTES
+
+13.1. This Agreement is governed by the laws of the Russian Federation, without regard to conflict-of-laws rules.
+
+13.2. Disputes are subject to the competent courts of the Russian Federation in accordance with applicable rules of jurisdiction and venue. Mandatory consumer-protection rules, if applicable, remain unaffected.
+
+## 14. GENERAL PROVISIONS
+
+14.1. If any provision is held invalid, illegal, or unenforceable, it must be applied to the maximum lawful extent, and the remaining provisions remain in force.
+
+14.2. The User may not assign or transfer this Agreement or any rights under it without the Developer's prior written consent. The Developer may transfer its rights and obligations together with the exclusive rights in the Software or as otherwise permitted by law.
+
+14.3. This Agreement, together with the official documentation and release notes expressly incorporated by it for the applicable version, constitutes the complete agreement concerning the license to that version of the Software.
+
+14.4. Headings are for convenience and do not affect interpretation.
+
+14.5. The controlling Russian version appears below.
 
 ---
 
-# НЕИСКЛЮЧИТЕЛЬНАЯ ЛИЦЕНЗИЯ НА ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ДЛЯ МАЙНИНГА
+# ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ GMINER GPU MINER
+# ПРОСТАЯ (НЕИСКЛЮЧИТЕЛЬНАЯ) ЛИЦЕНЗИЯ НА ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ
 
-## ВАЖНОЕ УВЕДОМЛЕНИЕ:
-Используя, устанавливая или загружая Программное обеспечение, вы соглашаетесь с условиями настоящего лицензионного соглашения. Настоящее соглашение является публичной офертой в соответствии со статьёй 435 Гражданского кодекса Российской Федерации. Использование Программного обеспечения означает акцепт оферты (статья 438 ГК РФ).
-Перевод на английский язык предоставлен исключительно для удобства. В случае расхождений между версиями приоритет имеет настоящая русская версия.
+Версия 2.0
+Дата последнего обновления: 19 августа 2026 года
 
+Copyright © 2018–2026 ООО «ДевелСофт». Все права защищены.
 
-## ОСНОВНЫЕ ПОЛОЖЕНИЯ
-- Программное обеспечение (“ПО”) предназначено для майнинга криптовалют. Пользователь самостоятельно несёт ответственность за соответствие использования Программного обеспечения законам, нормативным актам и требованиям лицензирования, действующим в их юрисдикции.
-- ПО может быть установлено на устройства Пользователя, запускаться и использоваться в рамках его функционального назначения. Пользователю запрещено модифицировать, декомпилировать, распространять или использовать ПО иным образом.
-- ПО автоматически выделяет определённый процент вычислительной мощности Пользователя в пользу Разработчика в качестве платы.
-- ПО предоставляется российской компанией и регулируется законодательством Российской Федерации.
+## ВАЖНОЕ УВЕДОМЛЕНИЕ
 
+Настоящая русская версия является основной и имеет приоритет. Английский перевод предоставляется исключительно для удобства. При любых расхождениях между русским и английским текстами применяется русская версия.
 
-## ОПРЕДЕЛЕНИЯ
-- "Программное обеспечение (ПО)" – Программа для майнинга “GMiner”, принадлежащая
- Разработчику. 
-- "Разработчик" – ООО “ДевелСофт”, зарегистрированное по праву Российской Федерации,
- ОГРН: 1136451001280, ИНН: 6451000678.
-- "Пользователь" – Любое физическое или юридическое лицо, использующее, устанавливающее или загружающее ПО.
-- "Комиссия разработчика" – процент вычислительной мощности устройства Пользователя, автоматически направляемый на майнинг в пользу кошелька Разработчика.
+До загрузки или использования Программного обеспечения внимательно прочитайте настоящее Соглашение. Загружая, копируя, устанавливая, запуская, получая доступ либо иным образом используя Программное обеспечение, Пользователь подтверждает, что полностью прочитал, понял и принял настоящее Соглашение. Если Пользователь не принимает настоящее Соглашение, он не вправе загружать, устанавливать, запускать или использовать Программное обеспечение и обязан удалить все находящиеся в его владении или под его контролем экземпляры.
 
-## УСЛОВИЯ ЛИЦЕНЗИИ
-- Разработчик предоставляет Пользователю неисключительную лицензию на воспроизведение, установку и использование ПО.
-- Лицензия действует бессрочно.
-- Территория действия лицензии — весь мир.
-- Действие настоящей лицензии распространяется на текущую версию Программного обеспечения и все последующие обновления, предоставляемые Разработчиком через официальный репозиторий GitHub, по ссылке, указанной ниже.
+## 1. ОПРЕДЕЛЕНИЯ
 
-## КОМИССИЯ РАЗРАБОТЧИКА
-- ПО автоматически направляет указанный ниже процент вычислительной мощности оборудования Пользователя, в зависимости от используемого алгоритма, на майнинг криптовалюты непосредственно на кошелёк Разработчика в качестве вознаграждения по настоящему лицензионному соглашению.
+1.1. «Разработчик» — Общество с ограниченной ответственностью «ДевелСофт» (ООО «ДевелСофт»), зарегистрированное по законодательству Российской Федерации, ОГРН 1136451001280, ИНН 6451000678.
 
-### Комиссия разработчика по алгоритмам:
-| Алгоритм | Комиссия |
-|-----------|-----|
+1.2. «Программное обеспечение» или «ПО» — программа для майнинга на графических процессорах GMiner, выпущенная Разработчиком в любой версии, включая исполняемый и объектный код, библиотеки, скрипты, конфигурационные файлы, файлы обновлений и иные файлы, включённые Разработчиком в Официальный комплект.
+
+1.3. «Официальный комплект» — архив, установщик или иной программный пакет, опубликованный Разработчиком через Официальный источник загрузки без несанкционированных изменений.
+
+1.4. «Материалы» — созданная или опубликованная Разработчиком документация и иной контент, относящийся к ПО, включая файлы README, инструкции, описания параметров командной строки, примеры конфигурации, примечания к выпускам, тексты сайта и репозитория, таблицы, снимки экрана, изображения, графику и иные сопровождающие материалы.
+
+1.5. «Элементы бренда» — наименование GMiner, логотип GMiner, фирменное оформление, графические элементы и иные обозначения, используемые Разработчиком для индивидуализации ПО или официальных ресурсов Разработчика. Настоящее Соглашение не означает, что какой-либо конкретный Элемент бренда является зарегистрированным товарным знаком, если Разработчик прямо не указал иное.
+
+1.6. «Официальный источник загрузки» —
+
+- https://github.com/develsoftware/GMinerRelease/releases
+
+а также иной источник, прямо и письменно обозначенный Разработчиком в качестве официального источника загрузки.
+
+1.7. «Официальные ресурсы» — следующие ресурсы, которые в настоящее время обозначены Разработчиком как официальные:
+
+- Официальный сайт: https://gminer.pro
+- Официальный репозиторий GitHub: https://github.com/develsoftware/GMinerRelease
+- Официальные релизы: https://github.com/develsoftware/GMinerRelease/releases
+- Официальная тема BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0
+- Официальный Discord: https://discord.gg/J7RUG3FDYw
+- Официальный чат Telegram: https://telegram.me/gminer_talk
+- Официальный канал анонсов Telegram: https://telegram.me/gminer_releases
+
+Официальные ресурсы, не являющиеся Официальным источником загрузки, представляют собой только официальные информационные ресурсы или каналы сообщества. Файл является Официальным комплектом только тогда, когда он предоставляется из Официального источника загрузки либо Авторизованным распространителем. Ссылка с Официального ресурса не предоставляет такому ресурсу или третьему лицу право самостоятельно размещать экземпляр ПО.
+
+1.8. «Авторизованный распространитель» — физическое или юридическое лицо, заранее получившее прямое письменное разрешение Разработчика на распространение ПО. Разрешение ограничивается прямо указанными в нём способами, версиями, территорией и сроком распространения.
+
+1.9. «Пользователь» — любое физическое или юридическое лицо, которое загружает, копирует, устанавливает, запускает, получает доступ либо иным образом использует ПО. Лицо, принимающее настоящее Соглашение от имени организации, подтверждает наличие полномочий связать такую организацию условиями Соглашения.
+
+1.10. «Комиссия разработчика» — процент вычислительной мощности Пользователя, автоматически направляемый ПО на майнинг криптовалюты в пользу кошелька, указанного Разработчиком, в качестве вознаграждения за предоставленную по настоящему Соглашению лицензию.
+
+1.11. «Сервисная комиссия» — дополнительная необязательная комиссия, которая может быть настроена Пользователем или уполномоченным администратором посредством предусмотренной в ПО функции maintenance fee в пользу выбранного таким Пользователем или администратором кошелька.
+
+1.12. «Распространение» — передача экземпляра ПО третьему лицу либо предоставление третьему лицу возможности получить экземпляр ПО, в том числе посредством размещения, загрузки, публикации, зеркалирования, кэширования, передачи, раздачи, включения в состав других продуктов либо иного предоставления ПО через веб-сайт, файловый хостинг, сеть доставки контента, облачное хранилище, репозиторий, P2P- или torrent-сеть, образ операционной системы, контейнер, программную сборку, установщик, пакет, каталог приложений либо иной продукт, сервис или канал распространения, независимо от наличия платы и независимо от внесения изменений в ПО.
+
+## 2. ЗАКЛЮЧЕНИЕ И АКЦЕПТ СОГЛАШЕНИЯ
+
+2.1. Настоящее Соглашение является публичной офертой в соответствии со статьями 435, 437 и 438 Гражданского кодекса Российской Федерации и лицензионным договором, заключаемым в упрощённом порядке в соответствии с пунктом 5 статьи 1286 Гражданского кодекса Российской Федерации.
+
+2.2. Пользователь акцептует настоящее Соглашение с момента начала использования ПО. Для целей настоящего Соглашения началом использования признаётся загрузка, копирование, установка, запуск, запись ПО в память ЭВМ либо иное использование ПО или любой его функции.
+
+2.3. Акцепт является полным и безоговорочным и относится ко всему Соглашению. Пользователь не вправе принять только отдельные положения.
+
+2.4. Если Пользователь загружает или использует ПО от имени другого лица или организации, он подтверждает наличие всех необходимых полномочий и разрешений.
+
+## 3. ИСКЛЮЧИТЕЛЬНЫЕ ПРАВА И СОХРАНЕНИЕ ПРАВ
+
+3.1. ПО предоставляется по лицензии, а не продаётся. Разработчик сохраняет все исключительные и иные интеллектуальные права на ПО, Официальные комплекты, Материалы и оригинальные Элементы бренда Разработчика, за исключением компонентов и материалов третьих лиц, принадлежащих соответствующим правообладателям.
+
+3.2. Настоящее Соглашение предоставляет только ограниченные права, прямо перечисленные в разделе 4. Право собственности, права на исходный код, авторские права, права на товарные знаки и иные интеллектуальные права Пользователю не передаются.
+
+3.3. Все права, прямо не предоставленные настоящим Соглашением, сохраняются за Разработчиком.
+
+3.4. ПО и Материалы охраняются авторским правом и иными применимыми нормами независимо от того, приняло ли конкретное лицо настоящее Соглашение. Публикация ПО или Материалов в сети Интернет не переводит их в общественное достояние и не предоставляет разрешения на их копирование, повторную публикацию или распространение.
+
+3.5. Наименования и товарные знаки NVIDIA, AMD, криптовалют, майнинговых пулов, операционных систем и иных третьих лиц принадлежат их соответствующим правообладателям. Их упоминание не означает спонсорство, одобрение или аффилированность, если прямо не указано иное.
+
+3.6. Права, предоставляемые GitHub и пользователям GitHub исключительно применимыми условиями GitHub для просмотра и воспроизведения содержимого репозитория посредством функций публичного репозитория и fork на GitHub, настоящим Соглашением не расширяются. Такие права, относящиеся к платформе, не разрешают размещать или Распространять ПО за пределами допускаемой функциональности GitHub либо использовать Материалы за пределами соответствующих условий.
+
+## 4. ПРЕДОСТАВЛЯЕМАЯ ЛИЦЕНЗИЯ
+
+4.1. При условии постоянного соблюдения настоящего Соглашения Разработчик предоставляет Пользователю ограниченную, простую (неисключительную), непередаваемую и не допускающую сублицензирования лицензию, позволяющую:
+
+- загрузить Официальный комплект из Официального источника загрузки либо получить его от Авторизованного распространителя;
+- воспроизводить ПО только в объёме, технически необходимом для установки, загрузки в память, запуска и использования;
+- устанавливать, запускать и использовать ПО по его функциональному назначению для майнинга криптовалют на устройствах, принадлежащих Пользователю, находящихся под его контролем либо правомерно администрируемых им; и
+- создать резервную копию только в пределах, допускаемых императивными нормами применимого законодательства.
+
+4.2. Лицензия предоставляется для использования на территории всего мира на срок действия исключительного права на ПО, если она не прекращена ранее в соответствии с настоящим Соглашением.
+
+4.3. Каждая версия ПО регулируется редакцией настоящего Соглашения, включённой в её Официальный комплект либо прямо опубликованной Разработчиком для соответствующей версии. Устанавливая или используя обновление, Пользователь принимает соглашение, сопровождающее такое обновление.
+
+4.4. Лицензия не включает право Распространять ПО, предоставлять третьим лицам доступ к экземплярам ПО, сублицензировать ПО или использовать ПО для оказания несанкционированных услуг по распространению программного обеспечения.
+
+4.5. Пользователь вправе допускать своих работников, подрядчиков или администраторов к эксплуатации ПО исключительно от имени Пользователя и на устройствах, правомерно контролируемых Пользователем, при этом Пользователь отвечает за соблюдение ими настоящего Соглашения. Это разрешение не позволяет таким лицам сохранять, распространять или самостоятельно использовать экземпляры ПО за пределами указанной цели.
+
+## 5. КОМИССИЯ РАЗРАБОТЧИКА И СЕРВИСНАЯ КОМИССИЯ
+
+5.1. Лицензия предоставляется за вознаграждение. Во время майнинга ПО автоматически направляет применимый процент вычислительной мощности Пользователя на майнинг криптовалюты непосредственно в пользу кошелька, указанного Разработчиком. Комиссия разработчика начисляется непрерывно, а не только через фиксированные интервалы времени.
+
+5.2. В соответствии с текущим официальным README Комиссия разработчика для перечисленных алгоритмов составляет:
+
+| Алгоритм | Комиссия разработчика |
+|----------|------------------------|
 | eth, ethash | 2% |
 | etc, etchash | 2% |
 | kawpow, rvn, ravencoin | 2% |
@@ -115,30 +374,146 @@ Last updated: 31.03.2025
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
 
-## УСЛОВИЯ ИСПОЛЬЗОВАНИЯ
-- Пользователь вправе загружать ПО исключительно с официального репозитория GitHub: https://github.com/develsoftware/GMinerRelease/releases.
-- Пользователь не вправе дизассемблировать, декомпилировать, адаптировать, модифицировать или распространять ПО или иным образом нарушать права Разработчика либо причинять ему ущерб.
-- Использование ПО не по его назначению рассматривается как нарушение исключительных прав Разработчика и может повлечь гражданскую, административную и уголовную ответственность.
-- В случае нарушения условий или причинения вреда Разработчику Пользователь утрачивает право на использование ПО, обязан прекратить его использование, удалить все экземпляры и воздержаться от дальнейшего использования.
+5.3. Для алгоритма, режима совмещённого майнинга или иного режима, не указанного в пункте 5.2, применяется Комиссия разработчика, прямо отображаемая ПО либо указанная в официальной документации или примечаниях к выпуску соответствующей версии. При расхождении отображаемого и документированного значения применяется значение, отображаемое данной версией ПО во время работы, при условии что оно не было изменено Пользователем или третьим лицом.
 
+5.4. Разработчик вправе устанавливать иные ставки Комиссии разработчика для будущих версий, алгоритмов или режимов работы. Изменённая ставка применяется только к версии, для которой она раскрыта в ПО, Официальном комплекте, официальной документации или примечаниях к выпуску. Установка или использование такой версии означает принятие применимой ставки.
 
-## ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
-- Программное обеспечение предоставляется «как есть» без каких-либо гарантий.
-- Ответственность Разработчика ограничивается в объёме, допустимом законодательством Российской Федерации.
-- Разработчик не гарантирует получение Пользователем дохода или прибыли от использования ПО.
-- Все риски, связанные с майнингом криптовалют (в том числе соблюдение нормативных требований в юрисдикции Пользователя), лежат исключительно на Пользователе.
-- Критические ошибки устраняются Разработчиком по его усмотрению в разумные сроки после получения уведомления.
-- Разработчик не несёт ответственности за любые убытки, возникшие вследствие использования или невозможности использования ПО.
-- Пользователь несёт полную ответственность за соблюдение международных санкций и экспортного контроля.
-- Разработчик не осуществляет проверку соблюдения санкционного законодательства Пользователем.
-## РАСТОРЖЕНИЕ
-- Пользователь может прекратить использование Программного обеспечения в любой момент.
-- Разработчик вправе прекратить действие настоящей лицензии при нарушении ее условий Пользователем.
-## ПРИМЕНИМОЕ ПРАВО
-- Настоящее соглашение регулируется законодательством Российской Федерации.
-- Все споры подлежат рассмотрению в судах Российской Федерации.
+5.5. Пользователю запрещается отключать, обходить, блокировать, уменьшать, перенаправлять, подменять, скрывать, изменять либо иным образом вмешиваться в Комиссию разработчика, указанный Разработчиком кошелёк, соединение для начисления комиссии или любой технический механизм расчёта либо начисления Комиссии разработчика.
 
+5.6. ПО поддерживает дополнительную необязательную Сервисную комиссию. Если она настроена, Сервисная комиссия начисляется после Комиссии разработчика и не заменяет, не уменьшает, не засчитывается в счёт и не отменяет Комиссию разработчика.
 
+5.7. Разработчик не выбирает получателя Сервисной комиссии и не является стороной отношений между Пользователем, администратором, поставщиком услуг и получателем Сервисной комиссии, если Разработчик прямо не согласился с иным в письменной форме. Лицо, настраивающее Сервисную комиссию, самостоятельно отвечает за получение разрешения владельца оборудования и соблюдение всех применимых требований о раскрытии информации, договорных, налоговых и иных правовых требований.
 
-Дата последнего обновления: 31.03.2025
+5.8. Процент вычислительной мощности не гарантирует тождественный процент вознаграждения пула, полученной криптовалюты, времени, принятых шар или денежной стоимости. Фактический результат может отличаться из-за правил пула, состояния сети, сложности майнинга, задержек, производительности оборудования, отклонённых шар и иных обстоятельств, не контролируемых Разработчиком.
 
+## 6. ОФИЦИАЛЬНЫЕ ИСТОЧНИКИ И ПОДЛИННОСТЬ ФАЙЛОВ
+
+6.1. За исключением получения ПО от Авторизованного распространителя, Пользователь вправе получать ПО только из Официального источника загрузки.
+
+6.2. Веб-сайт, репозиторий, приложение, майнинговая операционная система, сервис, аккаунт в социальной сети или иной ресурс не получает права размещать или Распространять экземпляры ПО только на том основании, что он ссылается на GMiner, упоминает, обозревает или интегрирует GMiner либо публикует инструкции по его использованию.
+
+6.3. ПО, полученное из неавторизованного источника, может быть изменённым, устаревшим, неполным, вредоносным либо ложно представленным в качестве официального. Пользователь принимает на себя все риски, связанные с получением или использованием такого экземпляра.
+
+6.4. Если Разработчик публикует контрольные суммы, цифровые подписи, имена файлов или иные сведения о подлинности, Пользователю следует проверять их до начала использования. Удаление или изменение сведений о подлинности запрещено.
+
+6.5. В максимально допустимой законом степени Разработчик не отвечает за программное обеспечение, архив, установщик, модификацию, вредоносный код, потери или ущерб, происходящие из неавторизованного источника либо от неавторизованного распространителя.
+
+## 7. ЗАПРЕЩЁННОЕ ИСПОЛЬЗОВАНИЕ И РАСПРОСТРАНЕНИЕ
+
+7.1. Без предварительного прямого письменного разрешения Разработчика Пользователю запрещается прямо или косвенно:
+
+1. Распространять, публиковать, повторно загружать, размещать, зеркалировать, кэшировать, передавать, раздавать, продавать, сдавать в аренду или лизинг, сублицензировать, одалживать, безвозмездно передавать либо иным образом предоставлять ПО или Официальный комплект третьим лицам;
+
+2. размещать ПО на веб-сайтах, порталах загрузки, файловых хостингах, сетях доставки контента, в облачных хранилищах, репозиториях, P2P- или torrent-сетях, социальных сетях, каналах мессенджеров либо иных сторонних сервисах;
+
+3. включать ПО в образ операционной системы, майнинговый образ, образ прошивки, контейнер, образ виртуальной машины, программную сборку, установщик, архив, пакет, каталог приложений, сервис автоматического развёртывания либо иной продукт или услугу;
+
+4. использовать зеркало, прокси, ретранслятор, программную оболочку, перенаправление, сокращённую ссылку, фрейм или кнопку загрузки, которые передают либо представляют прямой файл ПО таким образом, что они подменяют Официальный источник загрузки или создают впечатление, будто сторонний ресурс является официальным либо авторизованным источником загрузки GMiner;
+
+5. изменять, исправлять, переводить, адаптировать, перекомпилировать, перепаковывать, переименовывать, дополнять ПО или Официальный комплект либо создавать их производные версии;
+
+6. добавлять, заменять или внедрять в Официальный комплект файлы, код, рекламу, другие майнеры, кошельки, вредоносный код, телеметрию, загрузчики, скрипты или иные компоненты либо представлять изменённый пакет как GMiner;
+
+7. дизассемблировать, декомпилировать, осуществлять обратное проектирование, расшифровывать, извлекать, анализировать либо пытаться получить исходный код, алгоритмы, закрытые протоколы, механизмы безопасности или иные внутренние элементы ПО;
+
+8. обходить, отключать, уменьшать, перенаправлять либо вмешиваться в Комиссию разработчика, лицензионную логику, проверку подлинности, меры безопасности или технические ограничения;
+
+9. удалять, скрывать, изменять или фальсифицировать уведомления об авторских правах, настоящее Соглашение, сведения о Разработчике, имена файлов, сведения о версии, цифровые подписи, контрольные суммы либо иные уведомления или данные о подлинности;
+
+10. использовать ПО на устройствах, аккаунтах, кошельках или вычислительных ресурсах без информированного разрешения их законного владельца либо администратора, в том числе для скрытого майнинга, ботнетов, вредоносного ПО, несанкционированного удалённого майнинга или иной противоправной деятельности;
+
+11. использовать ПО способом, направленным на причинение ущерба Разработчику, ПО, другим пользователям, сетям, пулам или третьим лицам либо на нарушение их прав; или
+
+12. помогать, поощрять, обеспечивать возможность либо инструктировать другое лицо совершить любое запрещённое настоящим разделом действие.
+
+7.2. Пункт 7.1 применяется, кроме ограниченного объёма действий, прямо разрешённых императивными нормами применимого законодательства, если такое разрешение не может быть правомерно исключено соглашением. Любое обратное проектирование или декомпиляция, допускаемые императивными нормами, должны ограничиваться минимальным разрешённым законом объёмом и целью, а полученная информация не может использоваться для создания существенно схожей программы, Распространения ПО, обхода Комиссии разработчика либо иного нарушения прав Разработчика.
+
+7.3. Письменное разрешение на Распространение, изменение или иное использование ПО за пределами раздела 4 действительно только при его выдаче Разработчиком либо надлежаще уполномоченным представителем и только в прямо указанном объёме. Молчание, отсутствие возражений, прежнее неприменение мер, доступность файлов в сети Интернет либо ссылка с Официального ресурса не являются разрешением.
+
+## 8. ГИПЕРССЫЛКИ, МАТЕРИАЛЫ И ЭЛЕМЕНТЫ БРЕНДА
+
+8.1. Сторонний ресурс вправе разместить обычную, ясно обозначенную текстовую гиперссылку на Официальный ресурс или Официальный источник загрузки при условии, что ссылка:
+
+- достоверно обозначает адрес назначения как официальный ресурс GMiner;
+- не создаёт впечатления аффилированности, авторизации, спонсорства, партнёрства, принадлежности или одобрения;
+- не встраивает во фрейм, не проксирует, не скрывает, не изменяет и не перехватывает адрес назначения;
+- не представляет прямой файл ПО в качестве загрузки, предоставляемой третьим лицом; и
+- не сопровождается несанкционированными копиями ПО, Материалов или Элементов бренда.
+
+8.2. Материалы предоставляются исключительно для разъяснения, установки, настройки и использования ПО. Общее право повторно публиковать, Распространять, переводить, адаптировать либо коммерчески использовать Материалы не предоставляется.
+
+8.3. Без письменного разрешения Разработчика либо разрешения, прямо предусмотренного императивными нормами применимого законодательства, запрещается воспроизводить или повторно публиковать существенные части Материалов, систематически извлекать или собирать их автоматизированными средствами для повторной публикации, создавать переведённые или адаптированные копии либо использовать их для создания стороннего сайта загрузки GMiner, клона документации, каталога приложений, страницы поисковой оптимизации, рекламной страницы или конкурирующего информационного ресурса.
+
+8.4. Краткие фрагменты Материалов могут цитироваться для добросовестного освещения новостей, обзора, критики, сравнения или обучающего комментария в пределах, разрешённых применимым законодательством, при условии соразмерности цитаты цели, ясного указания GMiner и источника, а также размещения видимой ссылки на соответствующий Официальный ресурс, если это технически возможно. Это разрешение не распространяется на копирование структуры, подбора материалов, снимков экрана, таблиц, примеров или существенной части текста Материалов.
+
+8.5. Лицензия на использование Элементов бренда не предоставляется, кроме ограниченного добросовестного упоминания GMiner, необходимого для идентификации ПО. Без предварительного письменного разрешения Разработчика Элементы бренда не могут использоваться в доменном имени, названии сайта или приложения, аккаунте социальной сети, названии репозитория, рекламе, метаданных, поисковой рекламе, логотипе, значке, кнопке загрузки, дизайне страницы или ином оформлении способом, способным вызвать смешение либо создать ложное впечатление официального источника, аффилированности, авторизации, партнёрства, спонсорства или одобрения.
+
+8.6. Дисклеймер, например «неофициальный сайт», сам по себе не разрешает копирование или Распространение и не устраняет вводящее в заблуждение, смешивающее либо нарушающее права использование ПО, Материалов или Элементов бренда.
+
+## 9. ОБЯЗАННОСТИ ПОЛЬЗОВАТЕЛЯ И СОБЛЮДЕНИЕ ЗАКОНОДАТЕЛЬСТВА
+
+9.1. Пользователь самостоятельно отвечает за законность загрузки, хранения, установки, настройки и использования ПО, а также майнинга криптовалюты во всех применимых юрисдикциях.
+
+9.2. Пользователь самостоятельно отвечает за соблюдение законодательства и требований в отношении майнинга криптовалют, лицензирования, регистрации, налогообложения, потребления электроэнергии, защиты данных, доступа к компьютерным системам, телекоммуникаций, санкций и экспортного контроля.
+
+9.3. Разработчик не проверяет правовой статус Пользователя, наличие у него полномочий в отношении оборудования, соблюдение санкций или право использовать какой-либо кошелёк, майнинговый пул, прокси, узел Tor, сеть, аккаунт либо сторонний сервис.
+
+9.4. Пользователь отвечает за защиту устройств, учётных данных, кошельков, аккаунтов пулов, удалённых интерфейсов, API, конфигурационных файлов и сетевого доступа. Функции, требующие прав администратора либо открывающие интерфейсы мониторинга или управления, должны включаться только после оценки и принятия Пользователем связанных рисков безопасности.
+
+9.5. Пользователь отвечает за все решения по настройке и разгону, включая частоты ядра и памяти, напряжения, скорости вентиляторов, ограничения мощности, температурные пределы, тайминги памяти, выбор ядер, интенсивность и иные параметры оборудования.
+
+## 10. РИСКИ И ОТКАЗ ОТ ГАРАНТИЙ
+
+10.1. ПО предоставляется «КАК ЕСТЬ» и «ПО МЕРЕ ДОСТУПНОСТИ» без каких-либо гарантий в максимально допустимой применимым законодательством степени.
+
+10.2. Разработчик не гарантирует непрерывную, безошибочную или безопасную работу ПО, совместимость с конкретным оборудованием, драйвером, операционной системой, пулом, сетью или криптовалютой, а также устранение дефектов.
+
+10.3. Разработчик не гарантирует хешрейт, энергоэффективность, количество принятых шар, время бесперебойной работы, вознаграждение в криптовалюте, доход, прибыль, окупаемость либо иной результат.
+
+10.4. Майнинг криптовалют, разгон, снижение напряжения, изменение ограничений мощности, изменение работы вентиляторов и длительная эксплуатация оборудования под нагрузкой связаны с рисками, включая нестабильность, неверные шары, потерю данных, перегрев, ускоренный износ, отказ оборудования, пожар, электрические повреждения и потерю криптовалюты. Пользователь принимает эти риски на себя.
+
+10.5. Контроль температуры, автоматическое управление вентиляторами, проверка DAG, проверка шар, watchdog, резервные пулы, восстановление соединения, безопасная генерация DAG и аналогичные функции уменьшают отдельные риски, но не являются системами безопасности и не гарантируют предотвращение перегрева, сбоев, неверных шар, потери соединения, повреждения оборудования или иных отказов.
+
+10.6. Пулы, кошельки, драйверы, производители графических процессоров, операционные системы, сети, прокси, узлы Tor, биржи и иные продукты и сервисы третьих лиц не контролируются Разработчиком. Разработчик не отвечает за их доступность, безопасность, правила, действия, бездействие, комиссии, потери или результаты.
+
+10.7. Разработчик вправе по своему усмотрению исследовать и устранять критические дефекты после получения достаточной информации, однако заявления в документации, примечаниях к выпуску, каналах сообщества или переписке поддержки не создают гарантии либо обязательного срока исправления.
+
+## 11. ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
+
+11.1. В максимально допустимой применимым законодательством степени Разработчик не отвечает за прямые или косвенные убытки, возникшие в связи с использованием, невозможностью использования, настройкой ПО либо доверием к нему, включая упущенную выгоду, потерю криптовалюты, дохода, данных, оборудования, электроэнергии, деловых возможностей или репутации.
+
+11.2. Разработчик не отвечает за отклонённые или устаревшие шары, учёт результатов на стороне пула, ошибки кошельков, сетевые сбои, изменение сложности майнинга или протоколов криптовалют, меры государственных органов, санкции, требования третьих лиц, несанкционированный доступ либо файлы, полученные из неавторизованных источников.
+
+11.3. Ничто в настоящем Соглашении не исключает и не ограничивает ответственность или императивные права, которые не могут быть правомерно исключены или ограничены. Если ограничение недействительно в конкретной юрисдикции, оно применяется в максимально допустимом в ней объёме.
+
+## 12. ПРЕКРАЩЕНИЕ ЛИЦЕНЗИИ И СПОСОБЫ ЗАЩИТЫ
+
+12.1. Пользователь вправе прекратить настоящее Соглашение в любой момент, полностью прекратив использование ПО и удалив все экземпляры, находящиеся в его владении или под его контролем.
+
+12.2. Лицензия прекращается автоматически и немедленно при нарушении Пользователем настоящего Соглашения. После прекращения Пользователь обязан прекратить использование ПО, удалить все экземпляры, прекратить любое Распространение и удалить все находящиеся под его контролем несанкционированные копии Материалов и Элементов бренда.
+
+12.3. Несанкционированное воспроизведение, Распространение, изменение, повторная публикация Материалов, вмешательство в Комиссию разработчика либо вводящее в заблуждение использование Элементов бренда может одновременно являться нарушением исключительных прав Разработчика и нарушением настоящего Соглашения.
+
+12.4. Разработчик вправе применять любые предусмотренные законом способы защиты, включая требования о прекращении нарушения, удалении материалов или ограничении доступа, направления уведомлений хостинг-провайдерам, репозиториям, платформам, поисковым системам и иным информационным посредникам, требования о блокировании или исключении из поисковой выдачи, взыскание убытков или предусмотренной законом компенсации, а также обращение за предварительными обеспечительными мерами и судебным запретом.
+
+12.5. Неприменение или несвоевременное применение Разработчиком какого-либо положения не означает отказа от прав и не разрешает аналогичное поведение в будущем.
+
+12.6. Положения об исключительных правах, начисленных до прекращения обязательствах по Комиссии разработчика, запрете Распространения, Материалах, Элементах бренда, отказе от гарантий, ограничении ответственности, способах защиты и применимом праве сохраняют действие после прекращения в той мере, в которой это следует из их существа.
+
+## 13. ПРИМЕНИМОЕ ПРАВО И СПОРЫ
+
+13.1. Настоящее Соглашение регулируется законодательством Российской Федерации без учёта коллизионных норм.
+
+13.2. Споры подлежат рассмотрению компетентными судами Российской Федерации в соответствии с применимыми правилами подведомственности и подсудности. Императивные нормы о защите прав потребителей, если они применимы, сохраняют силу.
+
+## 14. ОБЩИЕ ПОЛОЖЕНИЯ
+
+14.1. Если какое-либо положение признано недействительным, незаконным или неисполнимым, оно применяется в максимально допустимом законом объёме, а остальные положения продолжают действовать.
+
+14.2. Пользователь не вправе уступать или передавать настоящее Соглашение либо права по нему без предварительного письменного согласия Разработчика. Разработчик вправе передать свои права и обязанности вместе с исключительными правами на ПО либо в иных случаях, допускаемых законом.
+
+14.3. Настоящее Соглашение вместе с официальной документацией и примечаниями к выпуску, прямо включёнными в него применительно к соответствующей версии, составляет полное соглашение о предоставлении лицензии на такую версию ПО.
+
+14.4. Заголовки используются для удобства и не влияют на толкование.
+
+14.5. При расхождениях между русской и английской версиями применяется настоящая русская версия.
