@@ -32,7 +32,20 @@ Publication of the Software, Materials, or Brand Elements on the Internet, inclu
 - page layouts, original visual elements, and original selection or arrangement of content; and
 - translations, adaptations, and other derivative versions of the foregoing created or authorized by the Developer.
 
-1.4. "Brand Elements" means the name GMiner, the GMiner logo, visual identity, graphics, icons, slogans, and other designations used by the Developer to identify the Software, the Developer, or Official Resources. Nothing in this Policy represents that any particular Brand Element is a registered trademark unless the Developer expressly states otherwise.
+1.4. "Brand Elements" means the name GMiner, the GMiner logo,
+visual identity, graphics, icons, slogans, and other designations
+used by the Developer to identify the Software, the Developer,
+or Official Resources.
+
+The word mark "GMiner" is registered in the Russian Federation
+in the name of OOO "DEVELSOFT" under Trademark Certificate
+No. 1247713, with priority dated 2 July 2025 and registration
+dated 4 August 2026. The registration is valid until 2 July 2035,
+subject to renewal and applicable law.
+
+Other Brand Elements may be protected under trademark,
+copyright, unfair-competition, designation, and other applicable
+laws, whether or not they are separately registered.
 
 1.5. "Official Download Source" means:
 
@@ -349,7 +362,22 @@ Copyright © 2018–2026 ООО «ДевелСофт». Все права защ
 - макеты страниц, оригинальные визуальные элементы, а также оригинальный подбор или расположение контента; и
 - переводы, адаптации и иные производные версии перечисленных материалов, созданные или разрешённые Разработчиком.
 
-1.4. «Элементы бренда» — наименование GMiner, логотип GMiner, фирменное оформление, графика, значки, слоганы и иные обозначения, используемые Разработчиком для индивидуализации ПО, Разработчика или Официальных ресурсов. Ничто в настоящей Политике не означает, что конкретный Элемент бренда зарегистрирован в качестве товарного знака, если Разработчик прямо не заявил об обратном.
+1.4. «Элементы бренда» — наименование GMiner, логотип GMiner,
+фирменное оформление, графика, значки, слоганы и иные обозначения,
+используемые Разработчиком для индивидуализации ПО, Разработчика
+или Официальных ресурсов.
+
+Словесный товарный знак «GMiner» зарегистрирован в Российской
+Федерации на имя ООО «ДЕВЕЛСОФТ» по свидетельству № 1247713.
+Приоритет товарного знака установлен с 2 июля 2025 года,
+дата государственной регистрации — 4 августа 2026 года,
+срок действия регистрации — до 2 июля 2035 года с возможностью
+продления в установленном законом порядке.
+
+Иные Элементы бренда могут охраняться законодательством
+о товарных знаках, авторском праве, недобросовестной конкуренции,
+средствах индивидуализации и иными применимыми нормами независимо
+от наличия их отдельной государственной регистрации.
 
 1.5. «Официальный источник загрузки» — следующий ресурс:
 
